@@ -1,6 +1,6 @@
 # ArXiv Data Pipeline
 
-![Data Architecture Diagram](./data-diagram.png)
+![Data Architecture Diagram](./diagram.png)
 
 ## About
 
