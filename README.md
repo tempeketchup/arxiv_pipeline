@@ -10,9 +10,9 @@ Proyek ini adalah pipeline data _end-to-end_ yang mengekstraksi data penelitian 
 
 Proyek ini mengadopsi pola desain data **Medallion Architecture** untuk mengatur kualitas data secara bertahap saat mengalir di dalam Data Lake:
 
-- **🥉 Bronze Layer (Data Mentah / Raw)**: Data hasil ekstraksi API arXiv disimpan dalam bentuk aslinya (JSON) tanpa perubahan atau skema yang ketat. Layer ini merepresentasikan _State of the World_ pada saat ekstraksi dilakukan.
-- **🥈 Silver Layer (Data Bersih / Cleansed)**: Menggunakan **Databricks**, data mentah dari Bronze layer diproses, di-_parse_, dan dibersihkan. Pada tahap ini, duplikat dihapus, kolom-kolom distandardisasi, dan disimpan menggunakan format **Delta Lake**. Data di layer ini siap digunakan untuk _ad-hoc query_ atau _data exploration_.
-- **🥇 Gold Layer (Data Teragregasi / Curated)**: Data dari Silver layer diagregasi dan disusun ke dalam model analitik (seperti _Star Schema_ atau _Summary Tables_) menggunakan **Delta Lake**. Data ini ditujukan secara khusus untuk kebutuhan _Business Intelligence_ (BI), seperti PowerBI, dan _dashboarding_.
+- **🥉 Bronze Layer (Data Mentah / Raw)**: Data hasil ekstraksi API arXiv disimpan dalam bentuk aslinya (JSON) tanpa perubahan.
+- **🥈 Silver Layer (Data Bersih / Cleansed)**: Menggunakan **Databricks**, data mentah dari Bronze layer diproses, di-_parse_, dan dibersihkan dengan **PySpark** dan **sql**. Pada tahap ini, duplikat dihapus, kolom-kolom distandardisasi, dan disimpan menggunakan format **Delta Lake**. Data di layer ini siap digunakan untuk _ad-hoc query_ atau _data exploration_.
+- **🥇 Gold Layer (Data Teragregasi / Curated)**: Data dari Silver layer diagregasi dan disusun ke dalam model analitik (seperti _Star Schema_ atau _Summary Tables_) menggunakan **Delta Lake**. Data ini kemudian di visualisasikan dengan _Business Intelligence_ (BI) tool, seperti PowerBI, dan _dashboarding_.
 
 ## Struktur File
 
