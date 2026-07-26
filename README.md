@@ -6,6 +6,8 @@
 
 Proyek ini adalah pipeline data _end-to-end_ yang mengekstraksi data penelitian dari [arXiv](https://arxiv.org/), memvalidasi kualitas data (Data Quality checks), dan memuatnya ke **Azure Data Lake Storage (ADLS) Gen2**. Seluruh alur kerja (workflow) diorkestrasi menggunakan **Apache Airflow**, dan infrastruktur di-provisioning secara otomatis menggunakan **Terraform** (Infrastructure as Code).
 
+Untuk memastikan efisiensi ekstraksi data, pipeline ini menggunakan mekanisme **Incremental Load** dengan bantuan **Watermark**. _Watermark_ berfungsi untuk mencatat tanggal atau ID terakhir dari data yang telah diproses sebelumnya. Dengan demikian, pada jadwal eksekusi berikutnya, pipeline hanya akan menarik data-data baru saja tanpa harus mengambil ulang data lama dari awal secara berulang-ulang.
+
 ## Medallion Architecture
 
 Proyek ini mengadopsi pola desain data **Medallion Architecture** untuk mengatur kualitas data secara bertahap saat mengalir di dalam Data Lake:
