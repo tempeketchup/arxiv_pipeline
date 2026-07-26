@@ -2,11 +2,11 @@
 
 ![Data Architecture Diagram](./data-diagram.png)
 
-## Penjelasan Singkat
+## About
 
 Proyek ini adalah pipeline data _end-to-end_ yang mengekstraksi data penelitian dari [arXiv](https://arxiv.org/), memvalidasi kualitas data (Data Quality checks), dan memuatnya ke **Azure Data Lake Storage (ADLS) Gen2**. Seluruh alur kerja (workflow) diorkestrasi menggunakan **Apache Airflow**, dan infrastruktur di-provisioning secara otomatis menggunakan **Terraform** (Infrastructure as Code).
 
-## Arsitektur Medallion (Medallion Architecture)
+## Medallion Architecture
 
 Proyek ini mengadopsi pola desain data **Medallion Architecture** untuk mengatur kualitas data secara bertahap saat mengalir di dalam Data Lake:
 
