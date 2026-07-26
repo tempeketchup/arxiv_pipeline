@@ -1,0 +1,1908 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2401.02465v1",
+    "title": "Interpretable Time Series Models for Wastewater Modeling in Combined Sewer Overflows",
+    "authors": [
+      "Teodor Chiaburu",
+      "Felix Biessmann"
+    ],
+    "summary": "Climate change poses increasingly complex challenges to our society. Extreme weather events such as floods, wild fires or droughts are becoming more frequent, spontaneous and difficult to foresee or counteract. In this work we specifically address the problem of sewage water polluting surface water bodies after spilling over from rain tanks as a consequence of heavy rain events. We investigate to what extent state-of-the-art interpretable time series models can help predict such critical water level points, so that the excess can promptly be redistributed across the sewage network. Our results indicate that modern time series models can contribute to better waste water management and prevention of environmental pollution from sewer systems. All the code and experiments can be found in our repository: https://github.com/TeodorChiaburu/RIWWER_TimeSeries.",
+    "published": "2024-01-04T11:48:27Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2403.12053v2",
+    "title": "PiGW: A Plug-in Generative Watermarking Framework",
+    "authors": [
+      "Rui Ma",
+      "Mengxi Guo",
+      "Li Yuming",
+      "Hengyuan Zhang",
+      "Cong Ma",
+      "Yuan Li",
+      "Xiaodong Xie",
+      "Shanghang Zhang"
+    ],
+    "summary": "Integrating watermarks into generative images is a critical strategy for protecting intellectual property and enhancing artificial intelligence security. This paper proposes Plug-in Generative Watermarking (PiGW) as a general framework for integrating watermarks into generative images. More specifically, PiGW embeds watermark information into the initial noise using a learnable watermark embedding network and an adaptive frequency spectrum mask. Furthermore, it optimizes training costs by gradually increasing timesteps. Extensive experiments demonstrate that PiGW enables embedding watermarks into the generated image with negligible quality loss while achieving true invisibility and high resistance to noise attacks. Moreover, PiGW can serve as a plugin for various commonly used generative structures and multimodal generative content types. Finally, we demonstrate how PiGW can also be utilized for detecting generated images, contributing to the promotion of secure AI development. The project code will be made available on GitHub.",
+    "published": "2024-01-04T12:02:15Z",
+    "categories": [
+      "cs.MM"
+    ],
+    "primary_category": "cs.MM"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02995v1",
+    "title": "CANAMRF: An Attention-Based Model for Multimodal Depression Detection",
+    "authors": [
+      "Yuntao Wei",
+      "Yuzhe Zhang",
+      "Shuyang Zhang",
+      "Hong Zhang"
+    ],
+    "summary": "Multimodal depression detection is an important research topic that aims to predict human mental states using multimodal data. Previous methods treat different modalities equally and fuse each modality by naïve mathematical operations without measuring the relative importance between them, which cannot obtain well-performed multimodal representations for downstream depression tasks. In order to tackle the aforementioned concern, we present a Cross-modal Attention Network with Adaptive Multi-modal Recurrent Fusion (CANAMRF) for multimodal depression detection. CANAMRF is constructed by a multimodal feature extractor, an Adaptive Multimodal Recurrent Fusion module, and a Hybrid Attention Module. Through experimentation on two benchmark datasets, CANAMRF demonstrates state-of-the-art performance, underscoring the effectiveness of our proposed approach.",
+    "published": "2024-01-04T12:08:16Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV",
+      "eess.IV"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02244v1",
+    "title": "Policy-regularized Offline Multi-objective Reinforcement Learning",
+    "authors": [
+      "Qian Lin",
+      "Chao Yu",
+      "Zongkai Liu",
+      "Zifan Wu"
+    ],
+    "summary": "In this paper, we aim to utilize only offline trajectory data to train a policy for multi-objective RL. We extend the offline policy-regularized method, a widely-adopted approach for single-objective offline RL problems, into the multi-objective setting in order to achieve the above goal. However, such methods face a new challenge in offline MORL settings, namely the preference-inconsistent demonstration problem. We propose two solutions to this problem: 1) filtering out preference-inconsistent demonstrations via approximating behavior preferences, and 2) adopting regularization techniques with high policy expressiveness. Moreover, we integrate the preference-conditioned scalarized update method into policy-regularized offline RL, in order to simultaneously learn a set of policies using a single policy network, thus reducing the computational cost induced by the training of a large number of individual policies for various preferences. Finally, we introduce Regularization Weight Adaptation to dynamically determine appropriate regularization weights for arbitrary target preferences during deployment. Empirical results on various multi-objective datasets demonstrate the capability of our approach in solving offline MORL problems.",
+    "published": "2024-01-04T12:54:10Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02996v1",
+    "title": "An AI-enabled Bias-Free Respiratory Disease Diagnosis Model using Cough Audio: A Case Study for COVID-19",
+    "authors": [
+      "Tabish Saeed",
+      "Aneeqa Ijaz",
+      "Ismail Sadiq",
+      "Haneya N. Qureshi",
+      "Ali Rizwan",
+      "Ali Imran"
+    ],
+    "summary": "Cough-based diagnosis for Respiratory Diseases (RDs) using Artificial Intelligence (AI) has attracted considerable attention, yet many existing studies overlook confounding variables in their predictive models. These variables can distort the relationship between cough recordings (input data) and RD status (output variable), leading to biased associations and unrealistic model performance. To address this gap, we propose the Bias Free Network (RBFNet), an end to end solution that effectively mitigates the impact of confounders in the training data distribution. RBFNet ensures accurate and unbiased RD diagnosis features, emphasizing its relevance by incorporating a COVID19 dataset in this study. This approach aims to enhance the reliability of AI based RD diagnosis models by navigating the challenges posed by confounding variables. A hybrid of a Convolutional Neural Networks (CNN) and Long-Short Term Memory (LSTM) networks is proposed for the feature encoder module of RBFNet. An additional bias predictor is incorporated in the classification scheme to formulate a conditional Generative Adversarial Network (cGAN) which helps in decorrelating the impact of confounding variables from RD prediction. The merit of RBFNet is demonstrated by comparing classification performance with State of The Art (SoTA) Deep Learning (DL) model (CNN LSTM) after training on different unbalanced COVID-19 data sets, created by using a large scale proprietary cough data set. RBF-Net proved its robustness against extremely biased training scenarios by achieving test set accuracies of 84.1%, 84.6%, and 80.5% for the following confounding variables gender, age, and smoking status, respectively. RBF-Net outperforms the CNN-LSTM model test set accuracies by 5.5%, 7.7%, and 8.2%, respectively",
+    "published": "2024-01-04T13:09:45Z",
+    "categories": [
+      "cs.SD",
+      "cs.LG",
+      "eess.AS"
+    ],
+    "primary_category": "cs.SD"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02258v1",
+    "title": "Uncertainty-Aware Deep Attention Recurrent Neural Network for Heterogeneous Time Series Imputation",
+    "authors": [
+      "Linglong Qian",
+      "Zina Ibrahim",
+      "Richard Dobson"
+    ],
+    "summary": "Missingness is ubiquitous in multivariate time series and poses an obstacle to reliable downstream analysis. Although recurrent network imputation achieved the SOTA, existing models do not scale to deep architectures that can potentially alleviate issues arising in complex data. Moreover, imputation carries the risk of biased estimations of the ground truth. Yet, confidence in the imputed values is always unmeasured or computed post hoc from model output. We propose DEep Attention Recurrent Imputation (DEARI), which jointly estimates missing values and their associated uncertainty in heterogeneous multivariate time series. By jointly representing feature-wise correlations and temporal dynamics, we adopt a self attention mechanism, along with an effective residual component, to achieve a deep recurrent neural network with good imputation performance and stable convergence. We also leverage self-supervised metric learning to boost performance by optimizing sample similarity. Finally, we transform DEARI into a Bayesian neural network through a novel Bayesian marginalization strategy to produce stochastic DEARI, which outperforms its deterministic equivalent. Experiments show that DEARI surpasses the SOTA in diverse imputation tasks using real-world datasets, namely air quality control, healthcare and traffic.",
+    "published": "2024-01-04T13:21:11Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.06781v1",
+    "title": "PokerGPT: An End-to-End Lightweight Solver for Multi-Player Texas Hold'em via Large Language Model",
+    "authors": [
+      "Chenghao Huang",
+      "Yanbo Cao",
+      "Yinlong Wen",
+      "Tao Zhou",
+      "Yanru Zhang"
+    ],
+    "summary": "Poker, also known as Texas Hold'em, has always been a typical research target within imperfect information games (IIGs). IIGs have long served as a measure of artificial intelligence (AI) development. Representative prior works, such as DeepStack and Libratus heavily rely on counterfactual regret minimization (CFR) to tackle heads-up no-limit Poker. However, it is challenging for subsequent researchers to learn CFR from previous models and apply it to other real-world applications due to the expensive computational cost of CFR iterations. Additionally, CFR is difficult to apply to multi-player games due to the exponential growth of the game tree size. In this work, we introduce PokerGPT, an end-to-end solver for playing Texas Hold'em with arbitrary number of players and gaining high win rates, established on a lightweight large language model (LLM). PokerGPT only requires simple textual information of Poker games for generating decision-making advice, thus guaranteeing the convenient interaction between AI and humans. We mainly transform a set of textual records acquired from real games into prompts, and use them to fine-tune a lightweight pre-trained LLM using reinforcement learning human feedback technique. To improve fine-tuning performance, we conduct prompt engineering on raw data, including filtering useful information, selecting behaviors of players with high win rates, and further processing them into textual instruction using multiple prompt engineering techniques. Through the experiments, we demonstrate that PokerGPT outperforms previous approaches in terms of win rate, model size, training time, and response speed, indicating the great potential of LLMs in solving IIGs.",
+    "published": "2024-01-04T13:27:50Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.04732v1",
+    "title": "A case study of Generative AI in MSX Sales Copilot: Improving seller productivity with a real-time question-answering system for content recommendation",
+    "authors": [
+      "Manpreet Singh",
+      "Ravdeep Pasricha",
+      "Nitish Singh",
+      "Ravi Prasad Kondapalli",
+      "Manoj R",
+      "Kiran R",
+      "Laurent Boué"
+    ],
+    "summary": "In this paper, we design a real-time question-answering system specifically targeted for helping sellers get relevant material/documentation they can share live with their customers or refer to during a call. Taking the Seismic content repository as a relatively large scale example of a diverse dataset of sales material, we demonstrate how LLM embeddings of sellers' queries can be matched with the relevant content. We achieve this by engineering prompts in an elaborate fashion that makes use of the rich set of meta-features available for documents and sellers. Using a bi-encoder with cross-encoder re-ranker architecture, we show how the solution returns the most relevant content recommendations in just a few seconds even for large datasets. Our recommender system is deployed as an AML endpoint for real-time inferencing and has been integrated into a Copilot interface that is now deployed in the production version of the Dynamics CRM, known as MSX, used daily by Microsoft sellers.",
+    "published": "2024-01-04T13:32:44Z",
+    "categories": [
+      "cs.IR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.IR"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02467v1",
+    "title": "ceylon: An R package for plotting the maps of Sri Lanka",
+    "authors": [
+      "Thiyanga S. Talagala"
+    ],
+    "summary": "The rapid evolution in the fields of computer science, data science, and artificial intelligence has significantly transformed the utilisation of data for decision-making. Data visualisation plays a critical role in any work that involves data. Visualising data on maps is frequently encountered in many fields. Visualising data on maps not only transforms raw data into visually comprehensible representations but also converts complex spatial information into simple, understandable form. Locating the data files necessary for map creation can be a challenging task. Establishing a centralised repository can alleviate the challenging task of finding shape files, allowing users to efficiently discover geographic data. The ceylon R package is designed to make simple feature data related to Sri Lanka's administrative boundaries and rivers and streams accessible for a diverse range of R users. With straightforward functionalities, this package allows users to quickly plot and explore administrative boundaries and rivers and streams in Sri Lanka.",
+    "published": "2024-01-04T14:00:00Z",
+    "categories": [
+      "stat.OT",
+      "stat.AP"
+    ],
+    "primary_category": "stat.OT"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02290v2",
+    "title": "Path-based Explanation for Knowledge Graph Completion",
+    "authors": [
+      "Heng Chang",
+      "Jiangnan Ye",
+      "Alejo Lopez Avila",
+      "Jinhua Du",
+      "Jia Li"
+    ],
+    "summary": "Graph Neural Networks (GNNs) have achieved great success in Knowledge Graph Completion (KGC) by modelling how entities and relations interact in recent years. However, the explanation of the predicted facts has not caught the necessary attention. Proper explanations for the results of GNN-based KGC models increase model transparency and help researchers develop more reliable models. Existing practices for explaining KGC tasks rely on instance/subgraph-based approaches, while in some scenarios, paths can provide more user-friendly and interpretable explanations. Nonetheless, the methods for generating path-based explanations for KGs have not been well-explored. To address this gap, we propose Power-Link, the first path-based KGC explainer that explores GNN-based models. We design a novel simplified graph-powering technique, which enables the generation of path-based explanations with a fully parallelisable and memory-efficient training scheme. We further introduce three new metrics for quantitative evaluation of the explanations, together with a qualitative human evaluation. Extensive experiments demonstrate that Power-Link outperforms the SOTA baselines in interpretability, efficiency, and scalability.",
+    "published": "2024-01-04T14:19:37Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.SI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02326v1",
+    "title": "ClassWise-SAM-Adapter: Parameter Efficient Fine-tuning Adapts Segment Anything to SAR Domain for Semantic Segmentation",
+    "authors": [
+      "Xinyang Pu",
+      "Hecheng Jia",
+      "Linghao Zheng",
+      "Feng Wang",
+      "Feng Xu"
+    ],
+    "summary": "In the realm of artificial intelligence, the emergence of foundation models, backed by high computing capabilities and extensive data, has been revolutionary. Segment Anything Model (SAM), built on the Vision Transformer (ViT) model with millions of parameters and vast training dataset SA-1B, excels in various segmentation scenarios relying on its significance of semantic information and generalization ability. Such achievement of visual foundation model stimulates continuous researches on specific downstream tasks in computer vision. The ClassWise-SAM-Adapter (CWSAM) is designed to adapt the high-performing SAM for landcover classification on space-borne Synthetic Aperture Radar (SAR) images. The proposed CWSAM freezes most of SAM's parameters and incorporates lightweight adapters for parameter efficient fine-tuning, and a classwise mask decoder is designed to achieve semantic segmentation task. This adapt-tuning method allows for efficient landcover classification of SAR images, balancing the accuracy with computational demand. In addition, the task specific input module injects low frequency information of SAR images by MLP-based layers to improve the model performance. Compared to conventional state-of-the-art semantic segmentation algorithms by extensive experiments, CWSAM showcases enhanced performance with fewer computing resources, highlighting the potential of leveraging foundational models like SAM for specific downstream tasks in the SAR domain. The source code is available at: https://github.com/xypu98/CWSAM.",
+    "published": "2024-01-04T15:54:45Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02347v1",
+    "title": "Mining Fine-Grained Image-Text Alignment for Zero-Shot Captioning via Text-Only Training",
+    "authors": [
+      "Longtian Qiu",
+      "Shan Ning",
+      "Xuming He"
+    ],
+    "summary": "Image captioning aims at generating descriptive and meaningful textual descriptions of images, enabling a broad range of vision-language applications. Prior works have demonstrated that harnessing the power of Contrastive Image Language Pre-training (CLIP) offers a promising approach to achieving zero-shot captioning, eliminating the need for expensive caption annotations. However, the widely observed modality gap in the latent space of CLIP harms the performance of zero-shot captioning by breaking the alignment between paired image-text features. To address this issue, we conduct an analysis on the CLIP latent space which leads to two findings. Firstly, we observe that the CLIP's visual feature of image subregions can achieve closer proximity to the paired caption due to the inherent information loss in text descriptions. In addition, we show that the modality gap between a paired image-text can be empirically modeled as a zero-mean Gaussian distribution. Motivated by the findings, we propose a novel zero-shot image captioning framework with text-only training to reduce the modality gap. In particular, we introduce a subregion feature aggregation to leverage local region information, which produces a compact visual representation for matching text representation. Moreover, we incorporate a noise injection and CLIP reranking strategy to boost captioning performance. We also extend our framework to build a zero-shot VQA pipeline, demonstrating its generality. Through extensive experiments on common captioning and VQA datasets such as MSCOCO, Flickr30k and VQAV2, we show that our method achieves remarkable performance improvements. Code is available at https://github.com/Artanic30/MacCap.",
+    "published": "2024-01-04T16:43:46Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02349v2",
+    "title": "A Survey Analyzing Generalization in Deep Reinforcement Learning",
+    "authors": [
+      "Ezgi Korkmaz"
+    ],
+    "summary": "Reinforcement learning research obtained significant success and attention with the utilization of deep neural networks to solve problems in high dimensional state or action spaces. While deep reinforcement learning policies are currently being deployed in many different fields from medical applications to large language models, there are still ongoing questions the field is trying to answer on the generalization capabilities of deep reinforcement learning policies. In this paper, we will formalize and analyze generalization in deep reinforcement learning. We will explain the fundamental reasons why deep reinforcement learning policies encounter overfitting problems that limit their generalization capabilities. Furthermore, we will categorize and explain the manifold solution approaches to increase generalization, and overcome overfitting in deep reinforcement learning policies. From exploration to adversarial analysis and from regularization to robustness our paper provides an analysis on a wide range of subfields within deep reinforcement learning with a broad scope and in-depth view. We believe our study can provide a compact guideline for the current advancements in deep reinforcement learning, and help to construct robust deep neural policies with higher generalization skills.",
+    "published": "2024-01-04T16:45:01Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02997v1",
+    "title": "Blar-SQL: Faster, Stronger, Smaller NL2SQL",
+    "authors": [
+      "José Manuel Domínguez",
+      "Benjamín Errázuriz",
+      "Patricio Daher"
+    ],
+    "summary": "Large Language Models (LLMs) have gained considerable notoriety in the field of natural language to SQL tasks (NL2SQL). In this study, we show how task decomposition can greatly benefit LLMs in database understanding and query generation in order to answer human questions with an SQL query.\n  We fined-tuned open source models, specifically Llama-2 and Code Llama, by combining 2 different models each designated to focus on one of two tasks in order to leverage each model's core competency to further increase the accuracy of the final SQL query.\n  We propose a new framework to divide the schema into chunks in order to fit more information into a limited context. Our results are comparable with those obtained by GPT-4 at the same time being 135 times smaller, 90 times faster and more than 100 times cheaper than GPT-4.",
+    "published": "2024-01-04T16:50:52Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02383v2",
+    "title": "Survey of 3D Human Body Pose and Shape Estimation Methods for Contemporary Dance Applications",
+    "authors": [
+      "Darshan Venkatrayappa",
+      "Alain Tremeau",
+      "Damien Muselet",
+      "Philippe Colantoni"
+    ],
+    "summary": "3D human body shape and pose estimation from RGB images is a challenging problem with potential applications in augmented/virtual reality, healthcare and fitness technology and virtual retail. Recent solutions have focused on three types of inputs: i) single images, ii) multi-view images and iii) videos. In this study, we surveyed and compared 3D body shape and pose estimation methods for contemporary dance and performing arts, with a special focus on human body pose and dressing, camera viewpoint, illumination conditions and background conditions. We demonstrated that multi-frame methods, such as PHALP, provide better results than single-frame method for pose estimation when dancers are performing contemporary dances.",
+    "published": "2024-01-04T17:51:44Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02385v2",
+    "title": "TinyLlama: An Open-Source Small Language Model",
+    "authors": [
+      "Peiyuan Zhang",
+      "Guangtao Zeng",
+      "Tianduo Wang",
+      "Wei Lu"
+    ],
+    "summary": "We present TinyLlama, a compact 1.1B language model pretrained on around 1 trillion tokens for approximately 3 epochs. Building on the architecture and tokenizer of Llama 2, TinyLlama leverages various advances contributed by the open-source community (e.g., FlashAttention and Lit-GPT), achieving better computational efficiency. Despite its relatively small size, TinyLlama demonstrates remarkable performance in a series of downstream tasks. It significantly outperforms existing open-source language models with comparable sizes. Our model checkpoints and code are publicly available on GitHub at https://github.com/jzhang38/TinyLlama.",
+    "published": "2024-01-04T17:54:59Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.10210v1",
+    "title": "Mastery Guided Non-parametric Clustering to Scale-up Strategy Prediction",
+    "authors": [
+      "Anup Shakya",
+      "Vasile Rus",
+      "Deepak Venugopal"
+    ],
+    "summary": "Predicting the strategy (sequence of concepts) that a student is likely to use in problem-solving helps Adaptive Instructional Systems (AISs) better adapt themselves to different types of learners based on their learning abilities. This can lead to a more dynamic, engaging, and personalized experience for students. To scale up training a prediction model (such as LSTMs) over large-scale education datasets, we develop a non-parametric approach to cluster symmetric instances in the data. Specifically, we learn a representation based on Node2Vec that encodes symmetries over mastery or skill level since, to solve a problem, it is natural that a student's strategy is likely to involve concepts in which they have gained mastery. Using this representation, we use DP-Means to group symmetric instances through a coarse-to-fine refinement of the clusters. We apply our model to learn strategies for Math learning from large-scale datasets from MATHia, a leading AIS for middle-school math learning. Our results illustrate that our approach can consistently achieve high accuracy using a small sample that is representative of the full dataset. Further, we show that this approach helps us learn strategies with high accuracy for students at different skill levels, i.e., leveraging symmetries improves fairness in the prediction model.",
+    "published": "2024-01-04T17:57:21Z",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CY"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02403v1",
+    "title": "Real-Time 2D Temperature Field Prediction in Metal Additive Manufacturing Using Physics-Informed Neural Networks",
+    "authors": [
+      "Pouyan Sajadi",
+      "Mostafa Rahmani Dehaghani",
+      "Yifan Tang",
+      "G. Gary Wang"
+    ],
+    "summary": "Accurately predicting the temperature field in metal additive manufacturing (AM) processes is critical to preventing overheating, adjusting process parameters, and ensuring process stability. While physics-based computational models offer precision, they are often time-consuming and unsuitable for real-time predictions and online control in iterative design scenarios. Conversely, machine learning models rely heavily on high-quality datasets, which can be costly and challenging to obtain within the metal AM domain. Our work addresses this by introducing a physics-informed neural network framework specifically designed for temperature field prediction in metal AM. This framework incorporates a physics-informed input, physics-informed loss function, and a Convolutional Long Short-Term Memory (ConvLSTM) architecture. Utilizing real-time temperature data from the process, our model predicts 2D temperature fields for future timestamps across diverse geometries, deposition patterns, and process parameters. We validate the proposed framework in two scenarios: full-field temperature prediction for a thin wall and 2D temperature field prediction for cylinder and cubic parts, demonstrating errors below 3% and 1%, respectively. Our proposed framework exhibits the flexibility to be applied across diverse scenarios with varying process parameters, geometries, and deposition patterns.",
+    "published": "2024-01-04T18:42:28Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.10271v1",
+    "title": "Querying Triadic Concepts through Partial or Complete Matching of Triples",
+    "authors": [
+      "Pedro Henrique B. Ruas",
+      "Rokia Missaoui",
+      "Mohamed Hamza Ibrahim"
+    ],
+    "summary": "In this paper, we introduce a new method for querying triadic concepts through partial or complete matching of triples using an inverted index, to retrieve already computed triadic concepts that contain a set of terms in their extent, intent, and/or modus. As opposed to the approximation approach described in Ananias, this method (i) does not need to keep the initial triadic context or its three dyadic counterparts, (ii) avoids the application of derivation operators on the triple components through context exploration, and (iii) eliminates the requirement for a factorization phase to get triadic concepts as the answer to one-dimensional queries. Additionally, our solution introduces a novel metric for ranking the retrieved triadic concepts based on their similarity to a given query. Lastly, an empirical study is primarily done to illustrate the effectiveness and scalability of our approach against the approximation one. Our solution not only showcases superior efficiency, but also highlights a better scalability, making it suitable for big data scenarios.",
+    "published": "2024-01-04T18:44:12Z",
+    "categories": [
+      "cs.DB",
+      "cs.AI"
+    ],
+    "primary_category": "cs.DB"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02411v1",
+    "title": "What You See is What You GAN: Rendering Every Pixel for High-Fidelity Geometry in 3D GANs",
+    "authors": [
+      "Alex Trevithick",
+      "Matthew Chan",
+      "Towaki Takikawa",
+      "Umar Iqbal",
+      "Shalini De Mello",
+      "Manmohan Chandraker",
+      "Ravi Ramamoorthi",
+      "Koki Nagano"
+    ],
+    "summary": "3D-aware Generative Adversarial Networks (GANs) have shown remarkable progress in learning to generate multi-view-consistent images and 3D geometries of scenes from collections of 2D images via neural volume rendering. Yet, the significant memory and computational costs of dense sampling in volume rendering have forced 3D GANs to adopt patch-based training or employ low-resolution rendering with post-processing 2D super resolution, which sacrifices multiview consistency and the quality of resolved geometry. Consequently, 3D GANs have not yet been able to fully resolve the rich 3D geometry present in 2D images. In this work, we propose techniques to scale neural volume rendering to the much higher resolution of native 2D images, thereby resolving fine-grained 3D geometry with unprecedented detail. Our approach employs learning-based samplers for accelerating neural rendering for 3D GAN training using up to 5 times fewer depth samples. This enables us to explicitly \"render every pixel\" of the full-resolution image during training and inference without post-processing superresolution in 2D. Together with our strategy to learn high-quality surface geometry, our method synthesizes high-resolution 3D geometry and strictly view-consistent images while maintaining image quality on par with baselines relying on post-processing super resolution. We demonstrate state-of-the-art 3D gemetric quality on FFHQ and AFHQ, setting a new standard for unsupervised learning of 3D shapes in 3D GANs.",
+    "published": "2024-01-04T18:50:38Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.GR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02412v1",
+    "title": "LLM Augmented LLMs: Expanding Capabilities through Composition",
+    "authors": [
+      "Rachit Bansal",
+      "Bidisha Samanta",
+      "Siddharth Dalmia",
+      "Nitish Gupta",
+      "Shikhar Vashishth",
+      "Sriram Ganapathy",
+      "Abhishek Bapna",
+      "Prateek Jain",
+      "Partha Talukdar"
+    ],
+    "summary": "Foundational models with billions of parameters which have been trained on large corpora of data have demonstrated non-trivial skills in a variety of domains. However, due to their monolithic structure, it is challenging and expensive to augment them or impart new skills. On the other hand, due to their adaptation abilities, several new instances of these models are being trained towards new domains and tasks. In this work, we study the problem of efficient and practical composition of existing foundation models with more specific models to enable newer capabilities. To this end, we propose CALM -- Composition to Augment Language Models -- which introduces cross-attention between models to compose their representations and enable new capabilities. Salient features of CALM are: (i) Scales up LLMs on new tasks by 're-using' existing LLMs along with a few additional parameters and data, (ii) Existing model weights are kept intact, and hence preserves existing capabilities, and (iii) Applies to diverse domains and settings. We illustrate that augmenting PaLM2-S with a smaller model trained on low-resource languages results in an absolute improvement of up to 13\\% on tasks like translation into English and arithmetic reasoning for low-resource languages. Similarly, when PaLM2-S is augmented with a code-specific model, we see a relative improvement of 40\\% over the base model for code generation and explanation tasks -- on-par with fully fine-tuned counterparts.",
+    "published": "2024-01-04T18:53:01Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02416v3",
+    "title": "ODIN: A Single Model for 2D and 3D Segmentation",
+    "authors": [
+      "Ayush Jain",
+      "Pushkal Katara",
+      "Nikolaos Gkanatsios",
+      "Adam W. Harley",
+      "Gabriel Sarch",
+      "Kriti Aggarwal",
+      "Vishrav Chaudhary",
+      "Katerina Fragkiadaki"
+    ],
+    "summary": "State-of-the-art models on contemporary 3D segmentation benchmarks like ScanNet consume and label dataset-provided 3D point clouds, obtained through post processing of sensed multiview RGB-D images. They are typically trained in-domain, forego large-scale 2D pre-training and outperform alternatives that featurize the posed RGB-D multiview images instead. The gap in performance between methods that consume posed images versus post-processed 3D point clouds has fueled the belief that 2D and 3D perception require distinct model architectures. In this paper, we challenge this view and propose ODIN (Omni-Dimensional INstance segmentation), a model that can segment and label both 2D RGB images and 3D point clouds, using a transformer architecture that alternates between 2D within-view and 3D cross-view information fusion. Our model differentiates 2D and 3D feature operations through the positional encodings of the tokens involved, which capture pixel coordinates for 2D patch tokens and 3D coordinates for 3D feature tokens. ODIN achieves state-of-the-art performance on ScanNet200, Matterport3D and AI2THOR 3D instance segmentation benchmarks, and competitive performance on ScanNet, S3DIS and COCO. It outperforms all previous works by a wide margin when the sensed 3D point cloud is used in place of the point cloud sampled from 3D mesh. When used as the 3D perception engine in an instructable embodied agent architecture, it sets a new state-of-the-art on the TEACh action-from-dialogue benchmark. Our code and checkpoints can be found at the project website (https://odin-seg.github.io).",
+    "published": "2024-01-04T18:59:25Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02500v2",
+    "title": "On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS)",
+    "authors": [
+      "Vishal Pallagani",
+      "Kaushik Roy",
+      "Bharath Muppasani",
+      "Francesco Fabiano",
+      "Andrea Loreggia",
+      "Keerthiram Murugesan",
+      "Biplav Srivastava",
+      "Francesca Rossi",
+      "Lior Horesh",
+      "Amit Sheth"
+    ],
+    "summary": "Automated Planning and Scheduling is among the growing areas in Artificial Intelligence (AI) where mention of LLMs has gained popularity. Based on a comprehensive review of 126 papers, this paper investigates eight categories based on the unique applications of LLMs in addressing various aspects of planning problems: language translation, plan generation, model construction, multi-agent planning, interactive planning, heuristics optimization, tool integration, and brain-inspired planning. For each category, we articulate the issues considered and existing gaps. A critical insight resulting from our review is that the true potential of LLMs unfolds when they are integrated with traditional symbolic planners, pointing towards a promising neuro-symbolic approach. This approach effectively combines the generative aspects of LLMs with the precision of classical planning methods. By synthesizing insights from existing literature, we underline the potential of this integration to address complex planning challenges. Our goal is to encourage the ICAPS community to recognize the complementary strengths of LLMs and symbolic planners, advocating for a direction in automated planning that leverages these synergistic capabilities to develop more advanced and intelligent planning systems.",
+    "published": "2024-01-04T19:22:09Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02509v2",
+    "title": "Memory, Consciousness and Large Language Model",
+    "authors": [
+      "Jitang Li",
+      "Jinzheng Li"
+    ],
+    "summary": "With the development in cognitive science and Large Language Models (LLMs), increasing connections have come to light between these two distinct fields. Building upon these connections, we propose a conjecture suggesting the existence of a duality between LLMs and Tulving's theory of memory. We identify a potential correspondence between Tulving's synergistic ecphory model (SEM) of retrieval and the emergent abilities observed in LLMs, serving as supporting evidence for our conjecture. Furthermore, we speculate that consciousness may be considered a form of emergent ability based on this duality. We also discuss how other theories of consciousness intersect with our research.",
+    "published": "2024-01-04T19:44:03Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "q-bio.NC"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02511v1",
+    "title": "Gain Scheduling with a Neural Operator for a Transport PDE with Nonlinear Recirculation",
+    "authors": [
+      "Maxence Lamarque",
+      "Luke Bhan",
+      "Rafael Vazquez",
+      "Miroslav Krstic"
+    ],
+    "summary": "To stabilize PDE models, control laws require space-dependent functional gains mapped by nonlinear operators from the PDE functional coefficients. When a PDE is nonlinear and its \"pseudo-coefficient\" functions are state-dependent, a gain-scheduling (GS) nonlinear design is the simplest approach to the design of nonlinear feedback. The GS version of PDE backstepping employs gains obtained by solving a PDE at each value of the state. Performing such PDE computations in real time may be prohibitive. The recently introduced neural operators (NO) can be trained to produce the gain functions, rapidly in real time, for each state value, without requiring a PDE solution. In this paper we introduce NOs for GS-PDE backstepping. GS controllers act on the premise that the state change is slow and, as a result, guarantee only local stability, even for ODEs. We establish local stabilization of hyperbolic PDEs with nonlinear recirculation using both a \"full-kernel\" approach and the \"gain-only\" approach to gain operator approximation. Numerical simulations illustrate stabilization and demonstrate speedup by three orders of magnitude over traditional PDE gain-scheduling. Code (Github) for the numerical implementation is published to enable exploration.",
+    "published": "2024-01-04T19:45:27Z",
+    "categories": [
+      "eess.SY",
+      "cs.AI",
+      "cs.LG",
+      "math.DS",
+      "math.OC"
+    ],
+    "primary_category": "eess.SY"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02516v2",
+    "title": "Moving-Horizon Estimators for Hyperbolic and Parabolic PDEs in 1-D",
+    "authors": [
+      "Luke Bhan",
+      "Yuanyuan Shi",
+      "Iasson Karafyllis",
+      "Miroslav Krstic",
+      "James B. Rawlings"
+    ],
+    "summary": "Observers for PDEs are themselves PDEs. Therefore, producing real time estimates with such observers is computationally burdensome. For both finite-dimensional and ODE systems, moving-horizon estimators (MHE) are operators whose output is the state estimate, while their inputs are the initial state estimate at the beginning of the horizon as well as the measured output and input signals over the moving time horizon. In this paper we introduce MHEs for PDEs which remove the need for a numerical solution of an observer PDE in real time. We accomplish this using the PDE backstepping method which, for certain classes of both hyperbolic and parabolic PDEs, produces moving-horizon state estimates explicitly. Precisely, to explicitly produce the state estimates, we employ a backstepping transformation of a hard-to-solve observer PDE into a target observer PDE, which is explicitly solvable. The MHEs we propose are not new observer designs but simply the explicit MHE realizations, over a moving horizon of arbitrary length, of the existing backstepping observers. Our PDE MHEs lack the optimality of the MHEs that arose as duals of MPC, but they are given explicitly, even for PDEs. In the paper we provide explicit formulae for MHEs for both hyperbolic and parabolic PDEs, as well as simulation results that illustrate theoretically guaranteed convergence of the MHEs.",
+    "published": "2024-01-04T19:55:43Z",
+    "categories": [
+      "eess.SY",
+      "cs.AI",
+      "math.AP",
+      "math.DS",
+      "math.OC"
+    ],
+    "primary_category": "eess.SY"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02523v1",
+    "title": "Image-based Deep Learning for Smart Digital Twins: a Review",
+    "authors": [
+      "Md Ruman Islam",
+      "Mahadevan Subramaniam",
+      "Pei-Chi Huang"
+    ],
+    "summary": "Smart Digital twins (SDTs) are being increasingly used to virtually replicate and predict the behaviors of complex physical systems through continual data assimilation enabling the optimization of the performance of these systems by controlling the actions of systems. Recently, deep learning (DL) models have significantly enhanced the capabilities of SDTs, particularly for tasks such as predictive maintenance, anomaly detection, and optimization. In many domains, including medicine, engineering, and education, SDTs use image data (image-based SDTs) to observe and learn system behaviors and control their behaviors. This paper focuses on various approaches and associated challenges in developing image-based SDTs by continually assimilating image data from physical systems. The paper also discusses the challenges involved in designing and implementing DL models for SDTs, including data acquisition, processing, and interpretation. In addition, insights into the future directions and opportunities for developing new image-based DL approaches to develop robust SDTs are provided. This includes the potential for using generative models for data augmentation, developing multi-modal DL models, and exploring the integration of DL with other technologies, including 5G, edge computing, and IoT. In this paper, we describe the image-based SDTs, which enable broader adoption of the digital twin DT paradigms across a broad spectrum of areas and the development of new methods to improve the abilities of SDTs in replicating, predicting, and optimizing the behavior of complex systems.",
+    "published": "2024-01-04T20:17:25Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "eess.SY"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02524v2",
+    "title": "Comprehensive Exploration of Synthetic Data Generation: A Survey",
+    "authors": [
+      "André Bauer",
+      "Simon Trapp",
+      "Michael Stenger",
+      "Robert Leppich",
+      "Samuel Kounev",
+      "Mark Leznik",
+      "Kyle Chard",
+      "Ian Foster"
+    ],
+    "summary": "Recent years have witnessed a surge in the popularity of Machine Learning (ML), applied across diverse domains. However, progress is impeded by the scarcity of training data due to expensive acquisition and privacy legislation. Synthetic data emerges as a solution, but the abundance of released models and limited overview literature pose challenges for decision-making. This work surveys 417 Synthetic Data Generation (SDG) models over the last decade, providing a comprehensive overview of model types, functionality, and improvements. Common attributes are identified, leading to a classification and trend analysis. The findings reveal increased model performance and complexity, with neural network-based approaches prevailing, except for privacy-preserving data generation. Computer vision dominates, with GANs as primary generative models, while diffusion models, transformers, and RNNs compete. Implications from our performance evaluation highlight the scarcity of common metrics and datasets, making comparisons challenging. Additionally, the neglect of training and computational costs in literature necessitates attention in future research. This work serves as a guide for SDG model selection and identifies crucial areas for future exploration.",
+    "published": "2024-01-04T20:23:51Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.10211v1",
+    "title": "Improving PTM Site Prediction by Coupling of Multi-Granularity Structure and Multi-Scale Sequence Representation",
+    "authors": [
+      "Zhengyi Li",
+      "Menglu Li",
+      "Lida Zhu",
+      "Wen Zhang"
+    ],
+    "summary": "Protein post-translational modification (PTM) site prediction is a fundamental task in bioinformatics. Several computational methods have been developed to predict PTM sites. However, existing methods ignore the structure information and merely utilize protein sequences. Furthermore, designing a more fine-grained structure representation learning method is urgently needed as PTM is a biological event that occurs at the atom granularity. In this paper, we propose a PTM site prediction method by Coupling of Multi-Granularity structure and Multi-Scale sequence representation, PTM-CMGMS for brevity. Specifically, multigranularity structure-aware representation learning is designed to learn neighborhood structure representations at the amino acid, atom, and whole protein granularity from AlphaFold predicted structures, followed by utilizing contrastive learning to optimize the structure representations.Additionally, multi-scale sequence representation learning is used to extract context sequence information, and motif generated by aligning all context sequences of PTM sites assists the prediction. Extensive experiments on three datasets show that PTM-CMGMS outperforms the state-of-the-art methods.",
+    "published": "2024-01-04T20:49:32Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "q-bio.QM"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02540v1",
+    "title": "DISO: A Domain Ontology for Modeling Dislocations in Crystalline Materials",
+    "authors": [
+      "Ahmad Zainul Ihsan",
+      "Said Fathalla",
+      "Stefan Sandfeld"
+    ],
+    "summary": "Crystalline materials, such as metals and semiconductors, nearly always contain a special defect type called dislocation. This defect decisively determines many important material properties, e.g., strength, fracture toughness, or ductility. Over the past years, significant effort has been put into understanding dislocation behavior across different length scales via experimental characterization techniques and simulations. This paper introduces the dislocation ontology (DISO), which defines the concepts and relationships related to linear defects in crystalline materials. We developed DISO using a top-down approach in which we start defining the most general concepts in the dislocation domain and subsequent specialization of them. DISO is published through a persistent URL following W3C best practices for publishing Linked Data. Two potential use cases for DISO are presented to illustrate its usefulness in the dislocation dynamics domain. The evaluation of the ontology is performed in two directions, evaluating the success of the ontology in modeling a real-world domain and the richness of the ontology.",
+    "published": "2024-01-04T21:06:28Z",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02542v2",
+    "title": "A Community Detection and Graph Neural Network Based Link Prediction Approach for Scientific Literature",
+    "authors": [
+      "Chunjiang Liu",
+      "Yikun Han",
+      "Haiyun Xu",
+      "Shihan Yang",
+      "Kaidi Wang",
+      "Yongye Su"
+    ],
+    "summary": "This study presents a novel approach that synergizes community detection algorithms with various Graph Neural Network (GNN) models to bolster link prediction in scientific literature networks. By integrating the Louvain community detection algorithm into our GNN frameworks, we consistently enhance performance across all models tested. For example, integrating Louvain with the GAT model resulted in an AUC score increase from 0.777 to 0.823, exemplifying the typical improvements observed. Similar gains are noted when Louvain is paired with other GNN architectures, confirming the robustness and effectiveness of incorporating community-level insights. This consistent uplift in performance reflected in our extensive experimentation on bipartite graphs of scientific collaborations and citations highlights the synergistic potential of combining community detection with GNNs to overcome common link prediction challenges such as scalability and resolution limits. Our findings advocate for the integration of community structures as a significant step forward in the predictive accuracy of network science models, offering a comprehensive understanding of scientific collaboration patterns through the lens of advanced machine learning techniques.",
+    "published": "2024-01-04T21:14:10Z",
+    "categories": [
+      "cs.SI",
+      "cs.AI"
+    ],
+    "primary_category": "cs.SI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02549v1",
+    "title": "Quantitative Technology Forecasting: a Review of Trend Extrapolation Methods",
+    "authors": [
+      "Peng-Hung Tsai",
+      "Daniel Berleant",
+      "Richard S. Segall",
+      "Hyacinthe Aboudja",
+      "Venkata Jaipal R. Batthula",
+      "Sheela Duggirala",
+      "Michael Howell"
+    ],
+    "summary": "Quantitative technology forecasting uses quantitative methods to understand and project technological changes. It is a broad field encompassing many different techniques and has been applied to a vast range of technologies. A widely used approach in this field is trend extrapolation. Based on the publications available to us, there has been little or no attempt made to systematically review the empirical evidence on quantitative trend extrapolation techniques. This study attempts to close this gap by conducting a systematic review of technology forecasting literature addressing the application of quantitative trend extrapolation techniques. We identified 25 studies relevant to the objective of this research and classified the techniques used in the studies into different categories, among which growth curves and time series methods were shown to remain popular over the past decade, while newer methods, such as machine learning-based hybrid models, have emerged in recent years. As more effort and evidence are needed to determine if hybrid models are superior to traditional methods, we expect to see a growing trend in the development and application of hybrid models to technology forecasting.",
+    "published": "2024-01-04T21:41:08Z",
+    "categories": [
+      "cs.AI",
+      "stat.AP"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.03000v1",
+    "title": "Bridging Modalities: Knowledge Distillation and Masked Training for Translating Multi-Modal Emotion Recognition to Uni-Modal, Speech-Only Emotion Recognition",
+    "authors": [
+      "Muhammad Muaz",
+      "Nathan Paull",
+      "Jahnavi Malagavalli"
+    ],
+    "summary": "This paper presents an innovative approach to address the challenges of translating multi-modal emotion recognition models to a more practical and resource-efficient uni-modal counterpart, specifically focusing on speech-only emotion recognition. Recognizing emotions from speech signals is a critical task with applications in human-computer interaction, affective computing, and mental health assessment. However, existing state-of-the-art models often rely on multi-modal inputs, incorporating information from multiple sources such as facial expressions and gestures, which may not be readily available or feasible in real-world scenarios. To tackle this issue, we propose a novel framework that leverages knowledge distillation and masked training techniques.",
+    "published": "2024-01-04T22:42:14Z",
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "cs.LG",
+      "eess.AS"
+    ],
+    "primary_category": "cs.SD"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02565v3",
+    "title": "Demonstration of an Adversarial Attack Against a Multimodal Vision Language Model for Pathology Imaging",
+    "authors": [
+      "Poojitha Thota",
+      "Jai Prakash Veerla",
+      "Partha Sai Guttikonda",
+      "Mohammad S. Nasr",
+      "Shirin Nilizadeh",
+      "Jacob M. Luber"
+    ],
+    "summary": "In the context of medical artificial intelligence, this study explores the vulnerabilities of the Pathology Language-Image Pretraining (PLIP) model, a Vision Language Foundation model, under targeted attacks. Leveraging the Kather Colon dataset with 7,180 H&E images across nine tissue types, our investigation employs Projected Gradient Descent (PGD) adversarial perturbation attacks to induce misclassifications intentionally. The outcomes reveal a 100% success rate in manipulating PLIP's predictions, underscoring its susceptibility to adversarial perturbations. The qualitative analysis of adversarial examples delves into the interpretability challenges, shedding light on nuanced changes in predictions induced by adversarial manipulations. These findings contribute crucial insights into the interpretability, domain adaptation, and trustworthiness of Vision Language Models in medical imaging. The study emphasizes the pressing need for robust defenses to ensure the reliability of AI models. The source codes for this experiment can be found at https://github.com/jaiprakash1824/VLM_Adv_Attack.",
+    "published": "2024-01-04T22:49:15Z",
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "q-bio.TO"
+    ],
+    "primary_category": "eess.IV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02566v1",
+    "title": "Siamese Residual Neural Network for Musical Shape Evaluation in Piano Performance Assessment",
+    "authors": [
+      "Xiaoquan Li",
+      "Stephan Weiss",
+      "Yijun Yan",
+      "Yinhe Li",
+      "Jinchang Ren",
+      "John Soraghan",
+      "Ming Gong"
+    ],
+    "summary": "Understanding and identifying musical shape plays an important role in music education and performance assessment. To simplify the otherwise time- and cost-intensive musical shape evaluation, in this paper we explore how artificial intelligence (AI) driven models can be applied. Considering musical shape evaluation as a classification problem, a light-weight Siamese residual neural network (S-ResNN) is proposed to automatically identify musical shapes. To assess the proposed approach in the context of piano musical shape evaluation, we have generated a new dataset, containing 4116 music pieces derived by 147 piano preparatory exercises and performed in 28 categories of musical shapes. The experimental results show that the S-ResNN significantly outperforms a number of benchmark methods in terms of the precision, recall and F1 score.",
+    "published": "2024-01-04T22:51:13Z",
+    "categories": [
+      "cs.SD",
+      "cs.LG",
+      "cs.MM",
+      "eess.AS"
+    ],
+    "primary_category": "cs.SD"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02575v1",
+    "title": "Large Language Models for Social Networks: Applications, Challenges, and Solutions",
+    "authors": [
+      "Jingying Zeng",
+      "Richard Huang",
+      "Waleed Malik",
+      "Langxuan Yin",
+      "Bojan Babic",
+      "Danny Shacham",
+      "Xiao Yan",
+      "Jaewon Yang",
+      "Qi He"
+    ],
+    "summary": "Large Language Models (LLMs) are transforming the way people generate, explore, and engage with content. We study how we can develop LLM applications for online social networks. Despite LLMs' successes in other domains, it is challenging to develop LLM-based products for social networks for numerous reasons, and it has been relatively under-reported in the research community. We categorize LLM applications for social networks into three categories. First is knowledge tasks where users want to find new knowledge and information, such as search and question-answering. Second is entertainment tasks where users want to consume interesting content, such as getting entertaining notification content. Third is foundational tasks that need to be done to moderate and operate the social networks, such as content annotation and LLM monitoring. For each task, we share the challenges we found, solutions we developed, and lessons we learned. To the best of our knowledge, this is the first comprehensive paper about developing LLM applications for social networks.",
+    "published": "2024-01-04T23:37:48Z",
+    "categories": [
+      "cs.SI",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.SI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02576v2",
+    "title": "t-DGR: A Trajectory-Based Deep Generative Replay Method for Continual Learning in Decision Making",
+    "authors": [
+      "William Yue",
+      "Bo Liu",
+      "Peter Stone"
+    ],
+    "summary": "Deep generative replay has emerged as a promising approach for continual learning in decision-making tasks. This approach addresses the problem of catastrophic forgetting by leveraging the generation of trajectories from previously encountered tasks to augment the current dataset. However, existing deep generative replay methods for continual learning rely on autoregressive models, which suffer from compounding errors in the generated trajectories. In this paper, we propose a simple, scalable, and non-autoregressive method for continual learning in decision-making tasks using a generative model that generates task samples conditioned on the trajectory timestep. We evaluate our method on Continual World benchmarks and find that our approach achieves state-of-the-art performance on the average success rate metric among continual learning methods. Code is available at https://github.com/WilliamYue37/t-DGR.",
+    "published": "2024-01-04T23:44:35Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.NE"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02586v1",
+    "title": "Federated Learning for distribution skewed data using sample weights",
+    "authors": [
+      "Hung Nguyen",
+      "Peiyuan Wu",
+      "Morris Chang"
+    ],
+    "summary": "One of the most challenging issues in federated learning is that the data is often not independent and identically distributed (nonIID). Clients are expected to contribute the same type of data and drawn from one global distribution. However, data are often collected in different ways from different resources. Thus, the data distributions among clients might be different from the underlying global distribution. This creates a weight divergence issue and reduces federated learning performance. This work focuses on improving federated learning performance for skewed data distribution across clients. The main idea is to adjust the client distribution closer to the global distribution using sample weights. Thus, the machine learning model converges faster with higher accuracy. We start from the fundamental concept of empirical risk minimization and theoretically derive a solution for adjusting the distribution skewness using sample weights. To determine sample weights, we implicitly exchange density information by leveraging a neural network-based density estimation model, MADE. The clients data distribution can then be adjusted without exposing their raw data. Our experiment results on three real-world datasets show that the proposed method not only improves federated learning accuracy but also significantly reduces communication costs compared to the other experimental methods.",
+    "published": "2024-01-05T00:46:11Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02588v1",
+    "title": "Characterizing Satellite Geometry via Accelerated 3D Gaussian Splatting",
+    "authors": [
+      "Van Minh Nguyen",
+      "Emma Sandidge",
+      "Trupti Mahendrakar",
+      "Ryan T. White"
+    ],
+    "summary": "The accelerating deployment of spacecraft in orbit have generated interest in on-orbit servicing (OOS), inspection of spacecraft, and active debris removal (ADR). Such missions require precise rendezvous and proximity operations in the vicinity of non-cooperative, possible unknown, resident space objects. Safety concerns with manned missions and lag times with ground-based control necessitate complete autonomy. This requires robust characterization of the target's geometry. In this article, we present an approach for mapping geometries of satellites on orbit based on 3D Gaussian Splatting that can run on computing resources available on current spaceflight hardware. We demonstrate model training and 3D rendering performance on a hardware-in-the-loop satellite mock-up under several realistic lighting and motion conditions. Our model is shown to be capable of training on-board and rendering higher quality novel views of an unknown satellite nearly 2 orders of magnitude faster than previous NeRF-based algorithms. Such on-board capabilities are critical to enable downstream machine intelligence tasks necessary for autonomous guidance, navigation, and control tasks.",
+    "published": "2024-01-05T00:49:56Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02589v1",
+    "title": "Identification of 4FGL uncertain sources at Higher Resolutions with Inverse Discrete Wavelet Transform",
+    "authors": [
+      "Haitao Cao",
+      "Hubing Xiao",
+      "Zhijian Luo",
+      "Xiangtao Zeng",
+      "Junhui Fan"
+    ],
+    "summary": "In the forthcoming era of big astronomical data, it is a burden to find out target sources from ground-based and space-based telescopes. Although Machine Learning (ML) methods have been extensively utilized to address this issue, the incorporation of in-depth data analysis can significantly enhance the efficiency of identifying target sources when dealing with massive volumes of astronomical data. In this work, we focused on the task of finding AGN candidates and identifying BL Lac/FSRQ candidates from the 4FGL DR3 uncertain sources. We studied the correlations among the attributes of the 4FGL DR3 catalogue and proposed a novel method, named FDIDWT, to transform the original data. The transformed dataset is characterized as low-dimensional and feature-highlighted, with the estimation of correlation features by Fractal Dimension (FD) theory and the multi-resolution analysis by Inverse Discrete Wavelet Transform (IDWT). Combining the FDIDWT method with an improved lightweight MatchboxConv1D model, we accomplished two missions: (1) to distinguish the Active Galactic Nuclei (AGNs) from others (Non-AGNs) in the 4FGL DR3 uncertain sources with an accuracy of 96.65%, namely, Mission A; (2) to classify blazar candidates of uncertain type (BCUs) into BL Lacertae objects (BL Lacs) or Flat Spectrum Radio Quasars (FSRQs) with an accuracy of 92.03%, namely, Mission B. There are 1354 AGN candidates in Mission A, 482 BL Lacs candidates and 128 FSRQ candidates in Mission B were found. The results show a high consistency of greater than 98% with the results in previous works. In addition, our method has the advantage of finding less variable and relatively faint sources than ordinary methods.",
+    "published": "2024-01-05T01:02:34Z",
+    "categories": [
+      "astro-ph.HE",
+      "cs.AI"
+    ],
+    "primary_category": "astro-ph.HE"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02591v1",
+    "title": "Synthetic Information towards Maximum Posterior Ratio for deep learning on Imbalanced Data",
+    "authors": [
+      "Hung Nguyen",
+      "Morris Chang"
+    ],
+    "summary": "This study examines the impact of class-imbalanced data on deep learning models and proposes a technique for data balancing by generating synthetic data for the minority class. Unlike random-based oversampling, our method prioritizes balancing the informative regions by identifying high entropy samples. Generating well-placed synthetic data can enhance machine learning algorithms accuracy and efficiency, whereas poorly-placed ones may lead to higher misclassification rates. We introduce an algorithm that maximizes the probability of generating a synthetic sample in the correct region of its class by optimizing the class posterior ratio. Additionally, to maintain data topology, synthetic data are generated within each minority sample's neighborhood. Our experimental results on forty-one datasets demonstrate the superior performance of our technique in enhancing deep-learning models.",
+    "published": "2024-01-05T01:08:26Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.10272v1",
+    "title": "Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization",
+    "authors": [
+      "Yikang Wei",
+      "Yahong Han"
+    ],
+    "summary": "Federated Domain Generalization aims to learn a domain-invariant model from multiple decentralized source domains for deployment on unseen target domain. Due to privacy concerns, the data from different source domains are kept isolated, which poses challenges in bridging the domain gap. To address this issue, we propose a Multi-source Collaborative Gradient Discrepancy Minimization (MCGDM) method for federated domain generalization. Specifically, we propose intra-domain gradient matching between the original images and augmented images to avoid overfitting the domain-specific information within isolated domains. Additionally, we propose inter-domain gradient matching with the collaboration of other domains, which can further reduce the domain shift across decentralized domains. Combining intra-domain and inter-domain gradient matching, our method enables the learned model to generalize well on unseen domains. Furthermore, our method can be extended to the federated domain adaptation task by fine-tuning the target model on the pseudo-labeled target domain. The extensive experiments on federated domain generalization and adaptation indicate that our method outperforms the state-of-the-art methods significantly.",
+    "published": "2024-01-05T01:21:37Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02600v1",
+    "title": "Object-oriented backdoor attack against image captioning",
+    "authors": [
+      "Meiling Li",
+      "Nan Zhong",
+      "Xinpeng Zhang",
+      "Zhenxing Qian",
+      "Sheng Li"
+    ],
+    "summary": "Backdoor attack against image classification task has been widely studied and proven to be successful, while there exist little research on the backdoor attack against vision-language models. In this paper, we explore backdoor attack towards image captioning models by poisoning training data. Assuming the attacker has total access to the training dataset, and cannot intervene in model construction or training process. Specifically, a portion of benign training samples is randomly selected to be poisoned. Afterwards, considering that the captions are usually unfolded around objects in an image, we design an object-oriented method to craft poisons, which aims to modify pixel values by a slight range with the modification number proportional to the scale of the current detected object region. After training with the poisoned data, the attacked model behaves normally on benign images, but for poisoned images, the model will generate some sentences irrelevant to the given image. The attack controls the model behavior on specific test images without sacrificing the generation performance on benign test images. Our method proves the weakness of image captioning models to backdoor attack and we hope this work can raise the awareness of defending against backdoor attack in the image captioning field.",
+    "published": "2024-01-05T01:52:13Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02602v2",
+    "title": "Neural Causal Abstractions",
+    "authors": [
+      "Kevin Xia",
+      "Elias Bareinboim"
+    ],
+    "summary": "The abilities of humans to understand the world in terms of cause and effect relationships, as well as to compress information into abstract concepts, are two hallmark features of human intelligence. These two topics have been studied in tandem in the literature under the rubric of causal abstractions theory. In practice, it remains an open problem how to best leverage abstraction theory in real-world causal inference tasks, where the true mechanisms are unknown and only limited data is available. In this paper, we develop a new family of causal abstractions by clustering variables and their domains. This approach refines and generalizes previous notions of abstractions to better accommodate individual causal distributions that are spawned by Pearl's causal hierarchy. We show that such abstractions are learnable in practical settings through Neural Causal Models (Xia et al., 2021), enabling the use of the deep learning toolkit to solve various challenging causal inference tasks -- identification, estimation, sampling -- at different levels of granularity. Finally, we integrate these results with representation learning to create more flexible abstractions, moving these results closer to practical applications. Our experiments support the theory and illustrate how to scale causal inferences to high-dimensional settings involving image data.",
+    "published": "2024-01-05T02:00:27Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02620v1",
+    "title": "Progress and Prospects in 3D Generative AI: A Technical Overview including 3D human",
+    "authors": [
+      "Song Bai",
+      "Jie Li"
+    ],
+    "summary": "While AI-generated text and 2D images continue to expand its territory, 3D generation has gradually emerged as a trend that cannot be ignored. Since the year 2023 an abundant amount of research papers has emerged in the domain of 3D generation. This growth encompasses not just the creation of 3D objects, but also the rapid development of 3D character and motion generation. Several key factors contribute to this progress. The enhanced fidelity in stable diffusion, coupled with control methods that ensure multi-view consistency, and realistic human models like SMPL-X, contribute synergistically to the production of 3D models with remarkable consistency and near-realistic appearances. The advancements in neural network-based 3D storing and rendering models, such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS), have accelerated the efficiency and realism of neural rendered models. Furthermore, the multimodality capabilities of large language models have enabled language inputs to transcend into human motion outputs. This paper aims to provide a comprehensive overview and summary of the relevant papers published mostly during the latter half year of 2023. It will begin by discussing the AI generated object models in 3D, followed by the generated 3D human models, and finally, the generated 3D human motions, culminating in a conclusive summary and a vision for the future.",
+    "published": "2024-01-05T03:41:38Z",
+    "categories": [
+      "cs.AI",
+      "cs.GR"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.10273v2",
+    "title": "Revolutionizing Pharma: Unveiling the AI and LLM Trends in the Pharmaceutical Industry",
+    "authors": [
+      "Yu Han",
+      "Jingwen Tao"
+    ],
+    "summary": "This document offers a critical overview of the emerging trends and significant advancements in artificial intelligence (AI) within the pharmaceutical industry. Detailing its application across key operational areas, including research and development, animal testing, clinical trials, hospital clinical stages, production, regulatory affairs, quality control and other supporting areas, the paper categorically examines AI's role in each sector. Special emphasis is placed on cutting-edge AI technologies like machine learning algorithms and their contributions to various aspects of pharmaceutical operations. Through this comprehensive analysis, the paper highlights the transformative potential of AI in reshaping the pharmaceutical industry's future.",
+    "published": "2024-01-05T04:01:09Z",
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CY"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02627v2",
+    "title": "Characteristics and prevalence of fake social media profiles with AI-generated faces",
+    "authors": [
+      "Kai-Cheng Yang",
+      "Danishjeet Singh",
+      "Filippo Menczer"
+    ],
+    "summary": "Recent advancements in generative artificial intelligence (AI) have raised concerns about their potential to create convincing fake social media accounts, but empirical evidence is lacking. In this paper, we present a systematic analysis of Twitter (X) accounts using human faces generated by Generative Adversarial Networks (GANs) for their profile pictures. We present a dataset of 1,420 such accounts and show that they are used to spread scams, spam, and amplify coordinated messages, among other inauthentic activities. Leveraging a feature of GAN-generated faces -- consistent eye placement -- and supplementing it with human annotation, we devise an effective method for identifying GAN-generated profiles in the wild. Applying this method to a random sample of active Twitter users, we estimate a lower bound for the prevalence of profiles using GAN-generated faces between 0.021% and 0.044% -- around 10K daily active accounts. These findings underscore the emerging threats posed by multimodal generative AI. We release the source code of our detection method and the data we collect to facilitate further investigation. Additionally, we provide practical heuristics to assist social media users in recognizing such accounts.",
+    "published": "2024-01-05T04:10:46Z",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.SI"
+    ],
+    "primary_category": "cs.CY"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02643v1",
+    "title": "Training and Serving System of Foundation Models: A Comprehensive Survey",
+    "authors": [
+      "Jiahang Zhou",
+      "Yanyu Chen",
+      "Zicong Hong",
+      "Wuhui Chen",
+      "Yue Yu",
+      "Tao Zhang",
+      "Hui Wang",
+      "Chuanfu Zhang",
+      "Zibin Zheng"
+    ],
+    "summary": "Foundation models (e.g., ChatGPT, DALL-E, PengCheng Mind, PanGu-$Σ$) have demonstrated extraordinary performance in key technological areas, such as natural language processing and visual recognition, and have become the mainstream trend of artificial general intelligence. This has led more and more major technology giants to dedicate significant human and financial resources to actively develop their foundation model systems, which drives continuous growth of these models' parameters. As a result, the training and serving of these models have posed significant challenges, including substantial computing power, memory consumption, bandwidth demands, etc. Therefore, employing efficient training and serving strategies becomes particularly crucial. Many researchers have actively explored and proposed effective methods. So, a comprehensive survey of them is essential for system developers and researchers. This paper extensively explores the methods employed in training and serving foundation models from various perspectives. It provides a detailed categorization of these state-of-the-art methods, including finer aspects such as network, computing, and storage. Additionally, the paper summarizes the challenges and presents a perspective on the future development direction of foundation model systems. Through comprehensive discussion and analysis, it hopes to provide a solid theoretical basis and practical guidance for future research and applications, promoting continuous innovation and development in foundation model systems.",
+    "published": "2024-01-05T05:27:15Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02644v1",
+    "title": "Simple Hierarchical Planning with Diffusion",
+    "authors": [
+      "Chang Chen",
+      "Fei Deng",
+      "Kenji Kawaguchi",
+      "Caglar Gulcehre",
+      "Sungjin Ahn"
+    ],
+    "summary": "Diffusion-based generative methods have proven effective in modeling trajectories with offline datasets. However, they often face computational challenges and can falter in generalization, especially in capturing temporal abstractions for long-horizon tasks. To overcome this, we introduce the Hierarchical Diffuser, a simple, fast, yet surprisingly effective planning method combining the advantages of hierarchical and diffusion-based planning. Our model adopts a \"jumpy\" planning strategy at the higher level, which allows it to have a larger receptive field but at a lower computational cost -- a crucial factor for diffusion-based planning methods, as we have empirically verified. Additionally, the jumpy sub-goals guide our low-level planner, facilitating a fine-tuning stage and further improving our approach's effectiveness. We conducted empirical evaluations on standard offline reinforcement learning benchmarks, demonstrating our method's superior performance and efficiency in terms of training and planning speed compared to the non-hierarchical Diffuser as well as other hierarchical planning methods. Moreover, we explore our model's generalization capability, particularly on how our method improves generalization capabilities on compositional out-of-distribution tasks.",
+    "published": "2024-01-05T05:28:40Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02652v1",
+    "title": "Adaptive Discounting of Training Time Attacks",
+    "authors": [
+      "Ridhima Bector",
+      "Abhay Aradhya",
+      "Chai Quek",
+      "Zinovi Rabinovich"
+    ],
+    "summary": "Among the most insidious attacks on Reinforcement Learning (RL) solutions are training-time attacks (TTAs) that create loopholes and backdoors in the learned behaviour. Not limited to a simple disruption, constructive TTAs (C-TTAs) are now available, where the attacker forces a specific, target behaviour upon a training RL agent (victim). However, even state-of-the-art C-TTAs focus on target behaviours that could be naturally adopted by the victim if not for a particular feature of the environment dynamics, which C-TTAs exploit. In this work, we show that a C-TTA is possible even when the target behaviour is un-adoptable due to both environment dynamics as well as non-optimality with respect to the victim objective(s). To find efficient attacks in this context, we develop a specialised flavour of the DDPG algorithm, which we term gammaDDPG, that learns this stronger version of C-TTA. gammaDDPG dynamically alters the attack policy planning horizon based on the victim's current behaviour. This improves effort distribution throughout the attack timeline and reduces the effect of uncertainty the attacker has about the victim. To demonstrate the features of our method and better relate the results to prior research, we borrow a 3D grid domain from a state-of-the-art C-TTA for our experiments. Code is available at \"bit.ly/github-rb-gDDPG\".",
+    "published": "2024-01-05T06:03:14Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02653v1",
+    "title": "A Deep Q-Learning based Smart Scheduling of EVs for Demand Response in Smart Grids",
+    "authors": [
+      "Viorica Rozina Chifu",
+      "Tudor Cioara",
+      "Cristina Bianca Pop",
+      "Horia Rusu",
+      "Ionut Anghel"
+    ],
+    "summary": "Economic and policy factors are driving the continuous increase in the adoption and usage of electrical vehicles (EVs). However, despite being a cleaner alternative to combustion engine vehicles, EVs have negative impacts on the lifespan of microgrid equipment and energy balance due to increased power demand and the timing of their usage. In our view grid management should leverage on EVs scheduling flexibility to support local network balancing through active participation in demand response programs. In this paper, we propose a model-free solution, leveraging Deep Q-Learning to schedule the charging and discharging activities of EVs within a microgrid to align with a target energy profile provided by the distribution system operator. We adapted the Bellman Equation to assess the value of a state based on specific rewards for EV scheduling actions and used a neural network to estimate Q-values for available actions and the epsilon-greedy algorithm to balance exploitation and exploration to meet the target energy profile. The results are promising showing that the proposed solution can effectively schedule the EVs charging and discharging actions to align with the target profile with a Person coefficient of 0.99, handling effective EVs scheduling situations that involve dynamicity given by the e-mobility features, relying only on data with no knowledge of EVs and microgrid dynamics.",
+    "published": "2024-01-05T06:04:46Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.04126v2",
+    "title": "The Concept of the Tactile Signature System for Individuals with Visual Impairments",
+    "authors": [
+      "Anatoliy Kremenchutskiy",
+      "Galymzhan Gabdreshov"
+    ],
+    "summary": "The lack of an accessible and effective system for blind individuals to create handwritten signatures presents a significant barrier to their independence and full participation in various aspects of life. This research introduces the Tactile Signature System, a groundbreaking approach that empowers individuals with visual impairments to form their unique handwritten signatures. Key features of the system include: Personalized customization: Through tactile interaction and voice algorithmic guidance, individuals create signatures reflecting their preferences and natural writing style. Real-time feedback: AI-powered voice prompts and analysis ensure accuracy and consistency in signature formation. Accessibility: Installation in local service centers provides a secure and supervised environment for signature creation. The system's impact reaches beyond the individual level: Promotes inclusivity and independence: Blind individuals can engage in legal and financial transactions without relying on others. Empowers and fosters equal opportunities: Participation in education, employment, and civic engagement becomes more accessible. Aligns with international conventions: Upholds the right of persons with disabilities to participate fully in society. The Tactile Signature System represents a significant step towards an inclusive and accessible future for individuals with visual impairments.",
+    "published": "2024-01-05T06:08:27Z",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.HC"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02661v1",
+    "title": "Nurse-in-the-Loop Artificial Intelligence for Precision Management of Type 2 Diabetes in a Clinical Trial Utilizing Transfer-Learned Predictive Digital Twin",
+    "authors": [
+      "Syed Hasib Akhter Faruqui",
+      "Adel Alaeddini",
+      "Yan Du",
+      "Shiyu Li",
+      "Kumar Sharma",
+      "Jing Wang"
+    ],
+    "summary": "Background: Type 2 diabetes (T2D) is a prevalent chronic disease with a significant risk of serious health complications and negative impacts on the quality of life. Given the impact of individual characteristics and lifestyle on the treatment plan and patient outcomes, it is crucial to develop precise and personalized management strategies. Artificial intelligence (AI) provides great promise in combining patterns from various data sources with nurses' expertise to achieve optimal care. Methods: This is a 6-month ancillary study among T2D patients (n = 20, age = 57 +- 10). Participants were randomly assigned to an intervention (AI, n=10) group to receive daily AI-generated individualized feedback or a control group without receiving the daily feedback (non-AI, n=10) in the last three months. The study developed an online nurse-in-the-loop predictive control (ONLC) model that utilizes a predictive digital twin (PDT). The PDT was developed using a transfer-learning-based Artificial Neural Network. The PDT was trained on participants self-monitoring data (weight, food logs, physical activity, glucose) from the first three months, and the online control algorithm applied particle swarm optimization to identify impactful behavioral changes for maintaining the patient's glucose and weight levels for the next three months. The ONLC provided the intervention group with individualized feedback and recommendations via text messages. The PDT was re-trained weekly to improve its performance. Findings: The trained ONLC model achieved >=80% prediction accuracy across all patients while the model was tuned online. Participants in the intervention group exhibited a trend of improved daily steps and stable or improved total caloric and total carb intake as recommended.",
+    "published": "2024-01-05T06:38:50Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02663v2",
+    "title": "Effective backdoor attack on graph neural networks in link prediction tasks",
+    "authors": [
+      "Jiazhu Dai",
+      "Haoyu Sun"
+    ],
+    "summary": "Graph Neural Networks (GNNs) are a class of deep learning models capable of processing graph-structured data, and they have demonstrated significant performance in a variety of real-world applications. Recent studies have found that GNN models are vulnerable to backdoor attacks. When specific patterns (called backdoor triggers, e.g., subgraphs, nodes, etc.) appear in the input data, the backdoor embedded in the GNN models is activated, which misclassifies the input data into the target class label specified by the attacker, whereas when there are no backdoor triggers in the input, the backdoor embedded in the GNN models is not activated, and the models work normally. Backdoor attacks are highly stealthy and expose GNN models to serious security risks. Currently, research on backdoor attacks against GNNs mainly focus on tasks such as graph classification and node classification, and backdoor attacks against link prediction tasks are rarely studied. In this paper, we propose a backdoor attack against the link prediction tasks based on GNNs and reveal the existence of such security vulnerability in GNN models, which make the backdoored GNN models to incorrectly predict unlinked two nodes as having a link relationship when a trigger appear. The method uses a single node as the trigger and poison selected node pairs in the training graph, and then the backdoor will be embedded in the GNN models through the training process. In the inference stage, the backdoor in the GNN models can be activated by simply linking the trigger node to the two end nodes of the unlinked node pairs in the input data, causing the GNN models to produce incorrect link prediction results for the target node pairs.",
+    "published": "2024-01-05T06:45:48Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02665v1",
+    "title": "Zero-shot Microclimate Prediction with Deep Learning",
+    "authors": [
+      "Iman Deznabi",
+      "Peeyush Kumar",
+      "Madalina Fiterau"
+    ],
+    "summary": "Weather station data is a valuable resource for climate prediction, however, its reliability can be limited in remote locations. To compound the issue, making local predictions often relies on sensor data that may not be accessible for a new, previously unmonitored location. In response to these challenges, we propose a novel zero-shot learning approach designed to forecast various climate measurements at new and unmonitored locations. Our method surpasses conventional weather forecasting techniques in predicting microclimate variables by leveraging knowledge extracted from other geographic locations.",
+    "published": "2024-01-05T06:46:56Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "physics.ao-ph"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02668v1",
+    "title": "Towards Integrated Fine-tuning and Inference when Generative AI meets Edge Intelligence",
+    "authors": [
+      "Ning Chen",
+      "Zhipeng Cheng",
+      "Xuwei Fan",
+      "Xiaoyu Xia",
+      "Lianfen Huang"
+    ],
+    "summary": "The high-performance generative artificial intelligence (GAI) represents the latest evolution of computational intelligence, while the blessing of future 6G networks also makes edge intelligence (EI) full of development potential. The inevitable encounter between GAI and EI can unleash new opportunities, where GAI's pre-training based on massive computing resources and large-scale unlabeled corpora can provide strong foundational knowledge for EI, while EI can harness fragmented computing resources to aggregate personalized knowledge for GAI. However, the natural contradictory features pose significant challenges to direct knowledge sharing. To address this, in this paper, we propose the GAI-oriented synthetical network (GaisNet), a collaborative cloud-edge-end intelligence framework that buffers contradiction leveraging data-free knowledge relay, where the bidirectional knowledge flow enables GAI's virtuous-cycle model fine-tuning and task inference, achieving mutualism between GAI and EI with seamless fusion and collaborative evolution. Experimental results demonstrate the effectiveness of the proposed mechanisms. Finally, we discuss the future challenges and directions in the interplay between GAI and EI.",
+    "published": "2024-01-05T06:52:55Z",
+    "categories": [
+      "cs.DC",
+      "cs.LG"
+    ],
+    "primary_category": "cs.DC"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02673v1",
+    "title": "A unified multichannel far-field speech recognition system: combining neural beamforming with attention based end-to-end model",
+    "authors": [
+      "Dongdi Zhao",
+      "Jianbo Ma",
+      "Lu Lu",
+      "Jinke Li",
+      "Xuan Ji",
+      "Lei Zhu",
+      "Fuming Fang",
+      "Ming Liu",
+      "Feijun Jiang"
+    ],
+    "summary": "Far-field speech recognition is a challenging task that conventionally uses signal processing beamforming to attack noise and interference problem. But the performance has been found usually limited due to heavy reliance on environmental assumption. In this paper, we propose a unified multichannel far-field speech recognition system that combines the neural beamforming and transformer-based Listen, Spell, Attend (LAS) speech recognition system, which extends the end-to-end speech recognition system further to include speech enhancement. Such framework is then jointly trained to optimize the final objective of interest. Specifically, factored complex linear projection (fCLP) has been adopted to form the neural beamforming. Several pooling strategies to combine look directions are then compared in order to find the optimal approach. Moreover, information of the source direction is also integrated in the beamforming to explore the usefulness of source direction as a prior, which is usually available especially in multi-modality scenario. Experiments on different microphone array geometry are conducted to evaluate the robustness against spacing variance of microphone array. Large in-house databases are used to evaluate the effectiveness of the proposed framework and the proposed method achieve 19.26\\% improvement when compared with a strong baseline.",
+    "published": "2024-01-05T07:11:13Z",
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.SD"
+    ],
+    "primary_category": "eess.AS"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02677v1",
+    "title": "Progressive Knowledge Distillation Of Stable Diffusion XL Using Layer Level Loss",
+    "authors": [
+      "Yatharth Gupta",
+      "Vishnu V. Jaddipal",
+      "Harish Prabhala",
+      "Sayak Paul",
+      "Patrick Von Platen"
+    ],
+    "summary": "Stable Diffusion XL (SDXL) has become the best open source text-to-image model (T2I) for its versatility and top-notch image quality. Efficiently addressing the computational demands of SDXL models is crucial for wider reach and applicability. In this work, we introduce two scaled-down variants, Segmind Stable Diffusion (SSD-1B) and Segmind-Vega, with 1.3B and 0.74B parameter UNets, respectively, achieved through progressive removal using layer-level losses focusing on reducing the model size while preserving generative quality. We release these models weights at https://hf.co/Segmind. Our methodology involves the elimination of residual networks and transformer blocks from the U-Net structure of SDXL, resulting in significant reductions in parameters, and latency. Our compact models effectively emulate the original SDXL by capitalizing on transferred knowledge, achieving competitive results against larger multi-billion parameter SDXL. Our work underscores the efficacy of knowledge distillation coupled with layer-level losses in reducing model size while preserving the high-quality generative capabilities of SDXL, thus facilitating more accessible deployment in resource-constrained environments.",
+    "published": "2024-01-05T07:21:46Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02683v2",
+    "title": "Geometric-Facilitated Denoising Diffusion Model for 3D Molecule Generation",
+    "authors": [
+      "Can Xu",
+      "Haosen Wang",
+      "Weigang Wang",
+      "Pengfei Zheng",
+      "Hongyang Chen"
+    ],
+    "summary": "Denoising diffusion models have shown great potential in multiple research areas. Existing diffusion-based generative methods on de novo 3D molecule generation face two major challenges. Since majority heavy atoms in molecules allow connections to multiple atoms through single bonds, solely using pair-wise distance to model molecule geometries is insufficient. Therefore, the first one involves proposing an effective neural network as the denoising kernel that is capable to capture complex multi-body interatomic relationships and learn high-quality features. Due to the discrete nature of graphs, mainstream diffusion-based methods for molecules heavily rely on predefined rules and generate edges in an indirect manner. The second challenge involves accommodating molecule generation to diffusion and accurately predicting the existence of bonds. In our research, we view the iterative way of updating molecule conformations in diffusion process is consistent with molecular dynamics and introduce a novel molecule generation method named Geometric-Facilitated Molecular Diffusion (GFMDiff). For the first challenge, we introduce a Dual-Track Transformer Network (DTN) to fully excevate global spatial relationships and learn high quality representations which contribute to accurate predictions of features and geometries. As for the second challenge, we design Geometric-Facilitated Loss (GFLoss) which intervenes the formation of bonds during the training period, instead of directly embedding edges into the latent space. Comprehensive experiments on current benchmarks demonstrate the superiority of GFMDiff.",
+    "published": "2024-01-05T07:29:21Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.BM"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02703v1",
+    "title": "Verifying Relational Explanations: A Probabilistic Approach",
+    "authors": [
+      "Abisha Thapa Magar",
+      "Anup Shakya",
+      "Somdeb Sarkhel",
+      "Deepak Venugopal"
+    ],
+    "summary": "Explanations on relational data are hard to verify since the explanation structures are more complex (e.g. graphs). To verify interpretable explanations (e.g. explanations of predictions made in images, text, etc.), typically human subjects are used since it does not necessarily require a lot of expertise. However, to verify the quality of a relational explanation requires expertise and is hard to scale-up. GNNExplainer is arguably one of the most popular explanation methods for Graph Neural Networks. In this paper, we develop an approach where we assess the uncertainty in explanations generated by GNNExplainer. Specifically, we ask the explainer to generate explanations for several counterfactual examples. We generate these examples as symmetric approximations of the relational structure in the original data. From these explanations, we learn a factor graph model to quantify uncertainty in an explanation. Our results on several datasets show that our approach can help verify explanations from GNNExplainer by reliably estimating the uncertainty of a relation specified in the explanation.",
+    "published": "2024-01-05T08:14:51Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02705v2",
+    "title": "XUAT-Copilot: Multi-Agent Collaborative System for Automated User Acceptance Testing with Large Language Model",
+    "authors": [
+      "Zhitao Wang",
+      "Wei Wang",
+      "Zirao Li",
+      "Long Wang",
+      "Can Yi",
+      "Xinjie Xu",
+      "Luyang Cao",
+      "Hanjing Su",
+      "Shouzhi Chen",
+      "Jun Zhou"
+    ],
+    "summary": "In past years, we have been dedicated to automating user acceptance testing (UAT) process of WeChat Pay, one of the most influential mobile payment applications in China. A system titled XUAT has been developed for this purpose. However, there is still a human-labor-intensive stage, i.e, test scripts generation, in the current system. Therefore, in this paper, we concentrate on methods of boosting the automation level of the current system, particularly the stage of test scripts generation. With recent notable successes, large language models (LLMs) demonstrate significant potential in attaining human-like intelligence and there has been a growing research area that employs LLMs as autonomous agents to obtain human-like decision-making capabilities. Inspired by these works, we propose an LLM-powered multi-agent collaborative system, named XUAT-Copilot, for automated UAT. The proposed system mainly consists of three LLM-based agents responsible for action planning, state checking and parameter selecting, respectively, and two additional modules for state sensing and case rewriting. The agents interact with testing device, make human-like decision and generate action command in a collaborative way. The proposed multi-agent system achieves a close effectiveness to human testers in our experimental studies and gains a significant improvement of Pass@1 accuracy compared with single-agent architecture. More importantly, the proposed system has launched in the formal testing environment of WeChat Pay mobile app, which saves a considerable amount of manpower in the daily development work.",
+    "published": "2024-01-05T08:24:30Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02708v1",
+    "title": "TripleSurv: Triplet Time-adaptive Coordinate Loss for Survival Analysis",
+    "authors": [
+      "Liwen Zhang",
+      "Lianzhen Zhong",
+      "Fan Yang",
+      "Di Dong",
+      "Hui Hui",
+      "Jie Tian"
+    ],
+    "summary": "A core challenge in survival analysis is to model the distribution of censored time-to-event data, where the event of interest may be a death, failure, or occurrence of a specific event. Previous studies have showed that ranking and maximum likelihood estimation (MLE)loss functions are widely-used for survival analysis. However, ranking loss only focus on the ranking of survival time and does not consider potential effect of samples for exact survival time values. Furthermore, the MLE is unbounded and easily subject to outliers (e.g., censored data), which may cause poor performance of modeling. To handle the complexities of learning process and exploit valuable survival time values, we propose a time-adaptive coordinate loss function, TripleSurv, to achieve adaptive adjustments by introducing the differences in the survival time between sample pairs into the ranking, which can encourage the model to quantitatively rank relative risk of pairs, ultimately enhancing the accuracy of predictions. Most importantly, the TripleSurv is proficient in quantifying the relative risk between samples by ranking ordering of pairs, and consider the time interval as a trade-off to calibrate the robustness of model over sample distribution. Our TripleSurv is evaluated on three real-world survival datasets and a public synthetic dataset. The results show that our method outperforms the state-of-the-art methods and exhibits good model performance and robustness on modeling various sophisticated data distributions with different censor rates. Our code will be available upon acceptance.",
+    "published": "2024-01-05T08:37:57Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02709v1",
+    "title": "German Text Embedding Clustering Benchmark",
+    "authors": [
+      "Silvan Wehrli",
+      "Bert Arnrich",
+      "Christopher Irrgang"
+    ],
+    "summary": "This work introduces a benchmark assessing the performance of clustering German text embeddings in different domains. This benchmark is driven by the increasing use of clustering neural text embeddings in tasks that require the grouping of texts (such as topic modeling) and the need for German resources in existing benchmarks. We provide an initial analysis for a range of pre-trained mono- and multilingual models evaluated on the outcome of different clustering algorithms. Results include strong performing mono- and multilingual models. Reducing the dimensions of embeddings can further improve clustering. Additionally, we conduct experiments with continued pre-training for German BERT models to estimate the benefits of this additional training. Our experiments suggest that significant performance improvements are possible for short text. All code and datasets are publicly available.",
+    "published": "2024-01-05T08:42:45Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02710v2",
+    "title": "Synergistic Formulaic Alpha Generation for Quantitative Trading based on Reinforcement Learning",
+    "authors": [
+      "Hong-Gi Shin",
+      "Sukhyun Jeong",
+      "Eui-Yeon Kim",
+      "Sungho Hong",
+      "Young-Jin Cho",
+      "Yong-Hoon Choi"
+    ],
+    "summary": "Mining of formulaic alpha factors refers to the process of discovering and developing specific factors or indicators (referred to as alpha factors) for quantitative trading in stock market. To efficiently discover alpha factors in vast search space, reinforcement learning (RL) is commonly employed. This paper proposes a method to enhance existing alpha factor mining approaches by expanding a search space and utilizing pretrained formulaic alpha set as initial seed values to generate synergistic formulaic alpha. We employ information coefficient (IC) and rank information coefficient (Rank IC) as performance evaluation metrics for the model. Using CSI300 market data, we conducted real investment simulations and observed significant performance improvement compared to existing techniques.",
+    "published": "2024-01-05T08:49:13Z",
+    "categories": [
+      "cs.CE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CE"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02713v1",
+    "title": "Graph-level Protein Representation Learning by Structure Knowledge Refinement",
+    "authors": [
+      "Ge Wang",
+      "Zelin Zang",
+      "Jiangbin Zheng",
+      "Jun Xia",
+      "Stan Z. Li"
+    ],
+    "summary": "This paper focuses on learning representation on the whole graph level in an unsupervised manner. Learning graph-level representation plays an important role in a variety of real-world issues such as molecule property prediction, protein structure feature extraction, and social network analysis. The mainstream method is utilizing contrastive learning to facilitate graph feature extraction, known as Graph Contrastive Learning (GCL). GCL, although effective, suffers from some complications in contrastive learning, such as the effect of false negative pairs. Moreover, augmentation strategies in GCL are weakly adaptive to diverse graph datasets. Motivated by these problems, we propose a novel framework called Structure Knowledge Refinement (SKR) which uses data structure to determine the probability of whether a pair is positive or negative. Meanwhile, we propose an augmentation strategy that naturally preserves the semantic meaning of the original data and is compatible with our SKR framework. Furthermore, we illustrate the effectiveness of our SKR framework through intuition and experiments. The experimental results on the tasks of graph-level classification demonstrate that our SKR framework is superior to most state-of-the-art baselines.",
+    "published": "2024-01-05T09:05:33Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.BM"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02715v1",
+    "title": "A Physics-Driven AI Approach for Microwave Imaging of Breast Tumors",
+    "authors": [
+      "Francesco Zardi",
+      "Luca Tosi",
+      "Marco Salucci",
+      "Andrea Massa"
+    ],
+    "summary": "In this paper, an innovative microwave imaging (MI) approach for breast tumor diagnosis is proposed that employs a differential formulation of the inverse scattering problem (ISP) at hand to exploit arbitrary-fidelity priors on the inhomogeneous reference/healthy tissues. The quantitative imaging of the unknown tumor is then rephrased into a global optimization problem, which is efficiently solved with an ad-hoc physics-driven artificial intelligence (AI) strategy inspired by the concepts and guidelines of the System-by-Design (SbD) paradigm. The effectiveness, the robustness, the reliability, and the efficiency of the proposed method are assessed against both synthetic and experimental data.",
+    "published": "2024-01-05T09:07:23Z",
+    "categories": [
+      "eess.SP"
+    ],
+    "primary_category": "eess.SP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02717v2",
+    "title": "Complementary Information Mutual Learning for Multimodality Medical Image Segmentation",
+    "authors": [
+      "Chuyun Shen",
+      "Wenhao Li",
+      "Haoqing Chen",
+      "Xiaoling Wang",
+      "Fengping Zhu",
+      "Yuxin Li",
+      "Xiangfeng Wang",
+      "Bo Jin"
+    ],
+    "summary": "Radiologists must utilize multiple modal images for tumor segmentation and diagnosis due to the limitations of medical imaging and the diversity of tumor signals. This leads to the development of multimodal learning in segmentation. However, the redundancy among modalities creates challenges for existing subtraction-based joint learning methods, such as misjudging the importance of modalities, ignoring specific modal information, and increasing cognitive load. These thorny issues ultimately decrease segmentation accuracy and increase the risk of overfitting. This paper presents the complementary information mutual learning (CIML) framework, which can mathematically model and address the negative impact of inter-modal redundant information. CIML adopts the idea of addition and removes inter-modal redundant information through inductive bias-driven task decomposition and message passing-based redundancy filtering. CIML first decomposes the multimodal segmentation task into multiple subtasks based on expert prior knowledge, minimizing the information dependence between modalities. Furthermore, CIML introduces a scheme in which each modality can extract information from other modalities additively through message passing. To achieve non-redundancy of extracted information, the redundant filtering is transformed into complementary information learning inspired by the variational information bottleneck. The complementary information learning procedure can be efficiently solved by variational inference and cross-modal spatial attention. Numerical results from the verification task and standard benchmarks indicate that CIML efficiently removes redundant information between modalities, outperforming SOTA methods regarding validation accuracy and segmentation effect.",
+    "published": "2024-01-05T09:21:45Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02719v1",
+    "title": "Learning Image Demoireing from Unpaired Real Data",
+    "authors": [
+      "Yunshan Zhong",
+      "Yuyao Zhou",
+      "Yuxin Zhang",
+      "Fei Chao",
+      "Rongrong Ji"
+    ],
+    "summary": "This paper focuses on addressing the issue of image demoireing. Unlike the large volume of existing studies that rely on learning from paired real data, we attempt to learn a demoireing model from unpaired real data, i.e., moire images associated with irrelevant clean images. The proposed method, referred to as Unpaired Demoireing (UnDeM), synthesizes pseudo moire images from unpaired datasets, generating pairs with clean images for training demoireing models. To achieve this, we divide real moire images into patches and group them in compliance with their moire complexity. We introduce a novel moire generation framework to synthesize moire images with diverse moire features, resembling real moire patches, and details akin to real moire-free images. Additionally, we introduce an adaptive denoise method to eliminate the low-quality pseudo moire images that adversely impact the learning of demoireing models. We conduct extensive experiments on the commonly-used FHDMi and UHDM datasets. Results manifest that our UnDeM performs better than existing methods when using existing demoireing models such as MBCNN and ESDNet-L. Code: https://github.com/zysxmu/UnDeM",
+    "published": "2024-01-05T09:26:35Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02726v1",
+    "title": "Une ontologie pour les syst{è}mes multi-agents ambiants dans les villes intelligentes",
+    "authors": [
+      "Nathan Aky",
+      "Denis Payet",
+      "Sylvain Giroux",
+      "Rémy Courdier"
+    ],
+    "summary": "Towns and cities are currently equipping themselves with a host of connected devices, with a view to transforming themselves into ''smart cities''. To manage this mass of connected objects, autonomous software entities, known as agents, can be attached to them to cooperate and use these devices to offer personalized services. However, this object infrastructure needs to be semantically structured in order to be exploited. This is why the proposal of this article is an ontology, formatted in OWL, describing the object infrastructures, their links with the organization of the multi-agent system and the services to be delivered according to the users of the system. The ontology is applied to smart mobility for people with reduced mobility, and could be adapted to other smart city axes.",
+    "published": "2024-01-05T09:42:10Z",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02727v2",
+    "title": "Enhancing targeted transferability via feature space fine-tuning",
+    "authors": [
+      "Hui Zeng",
+      "Biwei Chen",
+      "Anjie Peng"
+    ],
+    "summary": "Adversarial examples (AEs) have been extensively studied due to their potential for privacy protection and inspiring robust neural networks. Yet, making a targeted AE transferable across unknown models remains challenging. In this paper, to alleviate the overfitting dilemma common in an AE crafted by existing simple iterative attacks, we propose fine-tuning it in the feature space. Specifically, starting with an AE generated by a baseline attack, we encourage the features conducive to the target class and discourage the features to the original class in a middle layer of the source model. Extensive experiments demonstrate that only a few iterations of fine-tuning can boost existing attacks' targeted transferability nontrivially and universally. Our results also verify that the simple iterative attacks can yield comparable or even better transferability than the resource-intensive methods, which rest on training target-specific classifiers or generators with additional data. The code is available at: github.com/zengh5/TA_feature_FT.",
+    "published": "2024-01-05T09:46:42Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02731v4",
+    "title": "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks",
+    "authors": [
+      "Haoyuan Wu",
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "summary": "Large language models (LLMs) have demonstrated considerable proficiency in general natural language processing (NLP) tasks. Instruction tuning, a successful paradigm, enhances the ability of LLMs to follow natural language instructions and exhibit robust generalization across general tasks. However, these models often encounter performance limitations across multiple tasks due to constrained model capacity. Expanding this capacity during the instruction tuning phase poses significant challenges. To address this issue, we introduce parameter-efficient sparsity crafting (PESC), which crafts dense models into sparse models using the mixture-of-experts (MoE) architecture. PESC integrates adapters into the MoE layers of sparse models, differentiating experts without altering the individual weights within these layers. This method significantly reduces computational costs and GPU memory requirements, facilitating model capacity expansion through a minimal parameter increase when guaranteeing the quality of approximation in function space compared to original sparse upcycling. Our empirical evaluation demonstrates the effectiveness of the PESC method. Using PESC during instruction tuning, our best sparse model outperforms other sparse and dense models and exhibits superior general capabilities compared to GPT-3.5. Our code is available at https://github.com/wuhy68/Parameter-Efficient-MoE.",
+    "published": "2024-01-05T09:58:09Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02740v3",
+    "title": "Fairness-Aware Job Scheduling for Multi-Job Federated Learning",
+    "authors": [
+      "Yuxin Shi",
+      "Han Yu"
+    ],
+    "summary": "Federated learning (FL) enables multiple data owners (a.k.a. FL clients) to collaboratively train machine learning models without disclosing sensitive private data. Existing FL research mostly focuses on the monopoly scenario in which a single FL server selects a subset of FL clients to update their local models in each round of training. In practice, there can be multiple FL servers simultaneously trying to select clients from the same pool. In this paper, we propose a first-of-its-kind Fairness-aware Federated Job Scheduling (FairFedJS) approach to bridge this gap. Based on Lyapunov optimization, it ensures fair allocation of high-demand FL client datasets to FL jobs in need of them, by jointly considering the current demand and the job payment bids, in order to prevent prolonged waiting. Extensive experiments comparing FairFedJS against four state-of-the-art approaches on two datasets demonstrate its significant advantages. It outperforms the best baseline by 31.9% and 1.0% on average in terms of scheduling fairness and convergence time, respectively, while achieving comparable test accuracy.",
+    "published": "2024-01-05T10:29:08Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02744v1",
+    "title": "MAMI: Multi-Attentional Mutual-Information for Long Sequence Neuron Captioning",
+    "authors": [
+      "Alfirsa Damasyifa Fauzulhaq",
+      "Wahyu Parwitayasa",
+      "Joseph Ananda Sugihdharma",
+      "M. Fadli Ridhani",
+      "Novanto Yudistira"
+    ],
+    "summary": "Neuron labeling is an approach to visualize the behaviour and respond of a certain neuron to a certain pattern that activates the neuron. Neuron labeling extract information about the features captured by certain neurons in a deep neural network, one of which uses the encoder-decoder image captioning approach. The encoder used can be a pretrained CNN-based model and the decoder is an RNN-based model for text generation. Previous work, namely MILAN (Mutual Information-guided Linguistic Annotation of Neuron), has tried to visualize the neuron behaviour using modified Show, Attend, and Tell (SAT) model in the encoder, and LSTM added with Bahdanau attention in the decoder. MILAN can show great result on short sequence neuron captioning, but it does not show great result on long sequence neuron captioning, so in this work, we would like to improve the performance of MILAN even more by utilizing different kind of attention mechanism and additionally adding several attention result into one, in order to combine all the advantages from several attention mechanism. Using our compound dataset, we obtained higher BLEU and F1-Score on our proposed model, achieving 17.742 and 0.4811 respectively. At some point where the model converges at the peak, our model obtained BLEU of 21.2262 and BERTScore F1-Score of 0.4870.",
+    "published": "2024-01-05T10:41:55Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.09467v1",
+    "title": "Offline Handwriting Signature Verification: A Transfer Learning and Feature Selection Approach",
+    "authors": [
+      "Fatih Ozyurt",
+      "Jafar Majidpour",
+      "Tarik A. Rashid",
+      "Canan Koc"
+    ],
+    "summary": "Handwritten signature verification poses a formidable challenge in biometrics and document authenticity. The objective is to ascertain the authenticity of a provided handwritten signature, distinguishing between genuine and forged ones. This issue has many applications in sectors such as finance, legal documentation, and security. Currently, the field of computer vision and machine learning has made significant progress in the domain of handwritten signature verification. The outcomes, however, may be enhanced depending on the acquired findings, the structure of the datasets, and the used models. Four stages make up our suggested strategy. First, we collected a large dataset of 12600 images from 420 distinct individuals, and each individual has 30 signatures of a certain kind (All authors signatures are genuine). In the subsequent stage, the best features from each image were extracted using a deep learning model named MobileNetV2. During the feature selection step, three selectors neighborhood component analysis (NCA), Chi2, and mutual info (MI) were used to pull out 200, 300, 400, and 500 features, giving a total of 12 feature vectors. Finally, 12 results have been obtained by applying machine learning techniques such as SVM with kernels (rbf, poly, and linear), KNN, DT, Linear Discriminant Analysis, and Naive Bayes. Without employing feature selection techniques, our suggested offline signature verification achieved a classification accuracy of 91.3%, whereas using the NCA feature selection approach with just 300 features it achieved a classification accuracy of 97.7%. High classification accuracy was achieved using the designed and suggested model, which also has the benefit of being a self-organized framework. Consequently, using the optimum minimally chosen features, the proposed method could identify the best model performance and result validation prediction vectors.",
+    "published": "2024-01-05T10:55:20Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "eess.IV"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02749v2",
+    "title": "Hyperparameter-Free Approach for Faster Minimum Bayes Risk Decoding",
+    "authors": [
+      "Yuu Jinnai",
+      "Kaito Ariu"
+    ],
+    "summary": "Minimum Bayes-Risk (MBR) decoding is shown to be a powerful alternative to beam search decoding for a wide range of text generation tasks. However, MBR requires a huge amount of time for inference to compute the MBR objective, which makes the method infeasible in many situations where response time is critical. Confidence-based pruning (CBP) (Cheng and Vlachos, 2023) has recently been proposed to reduce the inference time in machine translation tasks. Although it is shown to significantly reduce the amount of computation, it requires hyperparameter tuning using a development set to be effective. To this end, we propose Approximate Minimum Bayes-Risk (AMBR) decoding, a hyperparameter-free method to run MBR decoding approximately. AMBR is derived from the observation that the problem of computing the sample-based MBR objective is the medoid identification problem. AMBR uses the Correlated Sequential Halving (CSH) algorithm (Baharav and Tse, 2019), the best approximation algorithm to date for the medoid identification problem, to compute the sample-based MBR objective. We evaluate AMBR on machine translation, text summarization, and image captioning tasks. The results show that AMBR achieves on par with CBP, with CBP selecting hyperparameters through an Oracle for each given computation budget.",
+    "published": "2024-01-05T11:02:08Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.03006v2",
+    "title": "The Rise of Diffusion Models in Time-Series Forecasting",
+    "authors": [
+      "Caspar Meijer",
+      "Lydia Y. Chen"
+    ],
+    "summary": "This survey delves into the application of diffusion models in time-series forecasting. Diffusion models are demonstrating state-of-the-art results in various fields of generative AI. The paper includes comprehensive background information on diffusion models, detailing their conditioning methods and reviewing their use in time-series forecasting. The analysis covers 11 specific time-series implementations, the intuition and theory behind them, the effectiveness on different datasets, and a comparison among each other. Key contributions of this work are the thorough exploration of diffusion models' applications in time-series forecasting and a chronologically ordered overview of these models. Additionally, the paper offers an insightful discussion on the current state-of-the-art in this domain and outlines potential future research directions. This serves as a valuable resource for researchers in AI and time-series analysis, offering a clear view of the latest advancements and future potential of diffusion models.",
+    "published": "2024-01-05T11:35:10Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02773v1",
+    "title": "Tackling Electrode Shift In Gesture Recognition with HD-EMG Electrode Subsets",
+    "authors": [
+      "Joao Pereira",
+      "Dimitrios Chalatsis",
+      "Balint Hodossy",
+      "Dario Farina"
+    ],
+    "summary": "sEMG pattern recognition algorithms have been explored extensively in decoding movement intent, yet are known to be vulnerable to changing recording conditions, exhibiting significant drops in performance across subjects, and even across sessions. Multi-channel surface EMG, also referred to as high-density sEMG (HD-sEMG) systems, have been used to improve performance with the information collected through the use of additional electrodes. However, a lack of robustness is ever present due to limited datasets and the difficulties in addressing sources of variability, such as electrode placement. In this study, we propose training on a collection of input channel subsets and augmenting our training distribution with data from different electrode locations, simultaneously targeting electrode shift and reducing input dimensionality. Our method increases robustness against electrode shift and results in significantly higher intersession performance across subjects and classification algorithms.",
+    "published": "2024-01-05T12:13:00Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SP"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02777v2",
+    "title": "From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models",
+    "authors": [
+      "Na Liu",
+      "Liangyu Chen",
+      "Xiaoyu Tian",
+      "Wei Zou",
+      "Kaijiang Chen",
+      "Ming Cui"
+    ],
+    "summary": "This paper introduces RAISE (Reasoning and Acting through Scratchpad and Examples), an advanced architecture enhancing the integration of Large Language Models (LLMs) like GPT-4 into conversational agents. RAISE, an enhancement of the ReAct framework, incorporates a dual-component memory system, mirroring human short-term and long-term memory, to maintain context and continuity in conversations. It entails a comprehensive agent construction scenario, including phases like Conversation Selection, Scene Extraction, CoT Completion, and Scene Augmentation, leading to the LLMs Training phase. This approach appears to enhance agent controllability and adaptability in complex, multi-turn dialogues. Our preliminary evaluations in a real estate sales context suggest that RAISE has some advantages over traditional agents, indicating its potential for broader applications. This work contributes to the AI field by providing a robust framework for developing more context-aware and versatile conversational agents.",
+    "published": "2024-01-05T12:26:46Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02797v3",
+    "title": "PeFoMed: Parameter Efficient Fine-tuning of Multimodal Large Language Models for Medical Imaging",
+    "authors": [
+      "Jinlong He",
+      "Pengfei Li",
+      "Gang Liu",
+      "Genrong He",
+      "Zhaolin Chen",
+      "Shenjun Zhong"
+    ],
+    "summary": "Multimodal large language models (MLLMs) represent an evolutionary expansion in the capabilities of traditional large language models, enabling them to tackle challenges that surpass the scope of purely text-based applications. It leverages the knowledge previously encoded within these language models, thereby enhancing their applicability and functionality in the reign of multimodal contexts. Recent works investigate the adaptation of MLLMs as a universal solution to address medical multi-modal problems as a generative task. In this paper, we propose a parameter efficient framework for fine-tuning MLLMs, specifically validated on medical visual question answering (Med-VQA) and medical report generation (MRG) tasks, using public benchmark datasets. We also introduce an evaluation metric using the 5-point Likert scale and its weighted average value to measure the quality of the generated reports for MRG tasks, where the scale ratings are labelled by both humans manually and the GPT-4 model. We further assess the consistency of performance metrics across traditional measures, GPT-4, and human ratings for both VQA and MRG tasks. The results indicate that semantic similarity assessments using GPT-4 align closely with human annotators and provide greater stability, yet they reveal a discrepancy when compared to conventional lexical similarity measurements. This questions the reliability of lexical similarity metrics for evaluating the performance of generative models in Med-VQA and report generation tasks. Besides, our fine-tuned model significantly outperforms GPT-4v. This indicates that without additional fine-tuning, multi-modal models like GPT-4v do not perform effectively on medical imaging tasks. The code will be available here: https://github.com/jinlHe/PeFoMed.",
+    "published": "2024-01-05T13:22:12Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02799v1",
+    "title": "Missing Value Chain in Generative AI Governance China as an example",
+    "authors": [
+      "Yulu Pi"
+    ],
+    "summary": "We examined the world's first regulation on Generative AI, China's Provisional Administrative Measures of Generative Artificial Intelligence Services, which came into effect in August 2023. Our assessment reveals that the Measures, while recognizing the technical advances of generative AI and seeking to govern its full life cycle, presents unclear distinctions regarding different roles in the value chain of Generative AI including upstream foundation model providers and downstream deployers. The lack of distinction and clear legal status between different players in the AI value chain can have profound consequences. It can lead to ambiguity in accountability, potentially undermining the governance and overall success of AI services.",
+    "published": "2024-01-05T13:28:25Z",
+    "categories": [
+      "cs.CY"
+    ],
+    "primary_category": "cs.CY"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02810v2",
+    "title": "Physics-Informed Neural Networks for High-Frequency and Multi-Scale Problems using Transfer Learning",
+    "authors": [
+      "Abdul Hannan Mustajab",
+      "Hao Lyu",
+      "Zarghaam Rizvi",
+      "Frank Wuttke"
+    ],
+    "summary": "Physics-informed neural network (PINN) is a data-driven solver for partial and ordinary differential equations(ODEs/PDEs). It provides a unified framework to address both forward and inverse problems. However, the complexity of the objective function often leads to training failures. This issue is particularly prominent when solving high-frequency and multi-scale problems. We proposed using transfer learning to boost the robustness and convergence of training PINN, starting training from low-frequency problems and gradually approaching high-frequency problems. Through two case studies, we discovered that transfer learning can effectively train PINN to approximate solutions from low-frequency problems to high-frequency problems without increasing network parameters. Furthermore, it requires fewer data points and less training time. We elaborately described our training strategy, including optimizer selection, and suggested guidelines for using transfer learning to train neural networks for solving more complex problems.",
+    "published": "2024-01-05T13:45:08Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.NA"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02838v1",
+    "title": "CrisisViT: A Robust Vision Transformer for Crisis Image Classification",
+    "authors": [
+      "Zijun Long",
+      "Richard McCreadie",
+      "Muhammad Imran"
+    ],
+    "summary": "In times of emergency, crisis response agencies need to quickly and accurately assess the situation on the ground in order to deploy relevant services and resources. However, authorities often have to make decisions based on limited information, as data on affected regions can be scarce until local response services can provide first-hand reports. Fortunately, the widespread availability of smartphones with high-quality cameras has made citizen journalism through social media a valuable source of information for crisis responders. However, analyzing the large volume of images posted by citizens requires more time and effort than is typically available. To address this issue, this paper proposes the use of state-of-the-art deep neural models for automatic image classification/tagging, specifically by adapting transformer-based architectures for crisis image classification (CrisisViT). We leverage the new Incidents1M crisis image dataset to develop a range of new transformer-based image classification models. Through experimentation over the standard Crisis image benchmark dataset, we demonstrate that the CrisisViT models significantly outperform previous approaches in emergency type, image relevance, humanitarian category, and damage severity classification. Additionally, we show that the new Incidents1M dataset can further augment the CrisisViT models resulting in an additional 1.25% absolute accuracy gain.",
+    "published": "2024-01-05T14:45:45Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.MM",
+      "cs.SI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02839v1",
+    "title": "Pheme: Efficient and Conversational Speech Generation",
+    "authors": [
+      "Paweł Budzianowski",
+      "Taras Sereda",
+      "Tomasz Cichy",
+      "Ivan Vulić"
+    ],
+    "summary": "In recent years, speech generation has seen remarkable progress, now achieving one-shot generation capability that is often virtually indistinguishable from real human voice. Integrating such advancements in speech generation with large language models might revolutionize a wide range of applications. However, certain applications, such as assistive conversational systems, require natural and conversational speech generation tools that also operate efficiently in real time. Current state-of-the-art models like VALL-E and SoundStorm, powered by hierarchical neural audio codecs, require large neural components and extensive training data to work well. In contrast, MQTTS aims to build more compact conversational TTS models while capitalizing on smaller-scale real-life conversational speech data. However, its autoregressive nature yields high inference latency and thus limits its real-time usage. In order to mitigate the current limitations of the state-of-the-art TTS models while capitalizing on their strengths, in this work we introduce the Pheme model series that 1) offers compact yet high-performing models, 2) allows for parallel speech generation of 3) natural conversational speech, and 4) it can be trained efficiently on smaller-scale conversational data, cutting data demands by more than 10x but still matching the quality of the autoregressive TTS models. We also show that through simple teacher-student distillation we can meet significant improvements in voice quality for single-speaker setups on top of pretrained Pheme checkpoints, relying solely on synthetic speech generated by much larger teacher models. Audio samples and pretrained models are available online.",
+    "published": "2024-01-05T14:47:20Z",
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "eess.AS"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02843v3",
+    "title": "Thousands of AI Authors on the Future of AI",
+    "authors": [
+      "Katja Grace",
+      "Harlan Stewart",
+      "Julia Fabienne Sandkühler",
+      "Stephen Thomas",
+      "Ben Weinstein-Raun",
+      "Jan Brauner",
+      "Richard C. Korzekwa"
+    ],
+    "summary": "In the largest survey of its kind, 2,778 researchers who had published in top-tier artificial intelligence (AI) venues gave predictions on the pace of AI progress and the nature and impacts of advanced AI systems The aggregate forecasts give at least a 50% chance of AI systems achieving several milestones by 2028, including autonomously constructing a payment processing site from scratch, creating a song indistinguishable from a new song by a popular musician, and autonomously downloading and fine-tuning a large language model. If science continues undisrupted, the chance of unaided machines outperforming humans in every possible task was estimated at 10% by 2027, and 50% by 2047. The latter estimate is 13 years earlier than that reached in a similar survey we conducted only one year earlier [Grace et al., 2022]. However, the chance of all human occupations becoming fully automatable was forecast to reach 10% by 2037, and 50% as late as 2116 (compared to 2164 in the 2022 survey).\n  Most respondents expressed substantial uncertainty about the long-term value of AI progress: While 68.3% thought good outcomes from superhuman AI are more likely than bad, of these net optimists 48% gave at least a 5% chance of extremely bad outcomes such as human extinction, and 59% of net pessimists gave 5% or more to extremely good outcomes. Between 38% and 51% of respondents gave at least a 10% chance to advanced AI leading to outcomes as bad as human extinction. More than half suggested that \"substantial\" or \"extreme\" concern is warranted about six different AI-related scenarios, including misinformation, authoritarian control, and inequality. There was disagreement about whether faster or slower AI progress would be better for the future of humanity. However, there was broad agreement that research aimed at minimizing potential risks from AI systems ought to be prioritized more.",
+    "published": "2024-01-05T14:53:09Z",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CY"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02851v2",
+    "title": "Natural Language Programming in Medicine: Administering Evidence Based Clinical Workflows with Autonomous Agents Powered by Generative Large Language Models",
+    "authors": [
+      "Akhil Vaid",
+      "Joshua Lampert",
+      "Juhee Lee",
+      "Ashwin Sawant",
+      "Donald Apakama",
+      "Ankit Sakhuja",
+      "Ali Soroush",
+      "Sarah Bick",
+      "Ethan Abbott",
+      "Hernando Gomez",
+      "Michael Hadley",
+      "Denise Lee",
+      "Isotta Landi",
+      "Son Q Duong",
+      "Nicole Bussola",
+      "Ismail Nabeel",
+      "Silke Muehlstedt",
+      "Silke Muehlstedt",
+      "Robert Freeman",
+      "Patricia Kovatch",
+      "Brendan Carr",
+      "Fei Wang",
+      "Benjamin Glicksberg",
+      "Edgar Argulian",
+      "Stamatios Lerakis",
+      "Rohan Khera",
+      "David L. Reich",
+      "Monica Kraft",
+      "Alexander Charney",
+      "Girish Nadkarni"
+    ],
+    "summary": "Generative Large Language Models (LLMs) hold significant promise in healthcare, demonstrating capabilities such as passing medical licensing exams and providing clinical knowledge. However, their current use as information retrieval tools is limited by challenges like data staleness, resource demands, and occasional generation of incorrect information. This study assessed the potential of LLMs to function as autonomous agents in a simulated tertiary care medical center, using real-world clinical cases across multiple specialties. Both proprietary and open-source LLMs were evaluated, with Retrieval Augmented Generation (RAG) enhancing contextual relevance. Proprietary models, particularly GPT-4, generally outperformed open-source models, showing improved guideline adherence and more accurate responses with RAG. The manual evaluation by expert clinicians was crucial in validating models' outputs, underscoring the importance of human oversight in LLM operation. Further, the study emphasizes Natural Language Programming (NLP) as the appropriate paradigm for modifying model behavior, allowing for precise adjustments through tailored prompts and real-world interactions. This approach highlights the potential of LLMs to significantly enhance and supplement clinical decision-making, while also emphasizing the value of continuous expert involvement and the flexibility of NLP to ensure their reliability and effectiveness in healthcare settings.",
+    "published": "2024-01-05T15:09:57Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02860v2",
+    "title": "Framework for Variable-lag Motif Following Relation Inference In Time Series using Matrix Profile analysis",
+    "authors": [
+      "Naaek Chinpattanakarn",
+      "Chainarong Amornbunchornvej"
+    ],
+    "summary": "Knowing who follows whom and what patterns they are following are crucial steps to understand collective behaviors (e.g. a group of human, a school of fish, or a stock market). Time series is one of resources that can be used to get insight regarding following relations. However, the concept of following patterns or motifs and the solution to find them in time series are not obvious. In this work, we formalize a concept of following motifs between two time series and present a framework to infer following patterns between two time series. The framework utilizes one of efficient and scalable methods to retrieve motifs from time series called the Matrix Profile Method. We compare our proposed framework with several baselines. The framework performs better than baselines in the simulation datasets. In the dataset of sound recording, the framework is able to retrieve the following motifs within a pair of time series that two singers sing following each other. In the cryptocurrency dataset, the framework is capable of capturing the following motifs within a pair of time series from two digital currencies, which implies that the values of one currency follow the values of another currency patterns. Our framework can be utilized in any field of time series to get insight regarding following patterns between time series.",
+    "published": "2024-01-05T15:32:24Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02870v1",
+    "title": "AFSPP: Agent Framework for Shaping Preference and Personality with Large Language Models",
+    "authors": [
+      "Zihong He",
+      "Changwang Zhang"
+    ],
+    "summary": "The evolution of Large Language Models (LLMs) has introduced a new paradigm for investigating human behavior emulation. Recent research has employed LLM-based Agents to create a sociological research environment, in which agents exhibit behavior based on the unfiltered characteristics of large language models. However, these studies overlook the iterative development within a human-like setting - Human preferences and personalities are complex, shaped by various factors and subject to ongoing change as a result of environmental and subjective influences. In light of this observation, we propose Agent Framework for Shaping Preference and Personality (AFSPP), exploring the multifaceted impact of social networks and subjective consciousness on LLM-based Agents' preference and personality formation. With AFSPP, we have, for the first time, successfully replicated several key findings from human personality experiments. And other AFSPP-based experimental results indicate that plan making, sensory perceptions and social networking with subjective information, wield the most pronounced influence on preference shaping. AFSPP can significantly enhance the efficiency and scope of psychological experiments, while yielding valuable insights for Trustworthy Artificial Intelligence research for strategies to prevent undesirable preference and personality development.",
+    "published": "2024-01-05T15:52:59Z",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.MA"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02873v3",
+    "title": "Optimal Chaining of Vehicle Plans with Time Windows",
+    "authors": [
+      "David Fiedler",
+      "Fabio V. Difonzo",
+      "Jan Mrkos"
+    ],
+    "summary": "For solving problems from the domain of Mobility-on-Demand (MoD), we often need to connect vehicle plans into plans spanning longer time, a process we call plan chaining. As we show in this work, chaining of the plans can be used to reduce the size of MoD providers' fleet (fleet-sizing problem) but also to reduce the total driven distance by providing high-quality vehicle dispatching solutions in MoD systems. Recently, a solution that uses this principle has been proposed to solve the fleet-sizing problem. The method does not consider the time flexibility of the plans. Instead, plans are fixed in time and cannot be delayed. However, time flexibility is an essential property of all vehicle problems with time windows. This work presents a new plan chaining formulation that considers delays as allowed by the time windows and a solution method for solving it. Moreover, we prove that the proposed plan chaining method is optimal, and we analyze its complexity. Finally, we list some practical applications and perform a demonstration for one of them: a new heuristic vehicle dispatching method for solving the static dial-a-ride problem. The demonstration results show that our proposed method provides a better solution than the two heuristic baselines for the majority of instances that cannot be solved optimally. At the same time, our method does not have the largest computational time requirements compared to the baselines. Therefore, we conclude that the proposed optimal chaining method provides not only theoretically sound results but is also practically applicable.",
+    "published": "2024-01-05T16:04:55Z",
+    "categories": [
+      "math.OC",
+      "cs.AI"
+    ],
+    "primary_category": "math.OC"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02884v1",
+    "title": "MsDC-DEQ-Net: Deep Equilibrium Model (DEQ) with Multi-scale Dilated Convolution for Image Compressive Sensing (CS)",
+    "authors": [
+      "Youhao Yu",
+      "Richard M. Dansereau"
+    ],
+    "summary": "Compressive sensing (CS) is a technique that enables the recovery of sparse signals using fewer measurements than traditional sampling methods. To address the computational challenges of CS reconstruction, our objective is to develop an interpretable and concise neural network model for reconstructing natural images using CS. We achieve this by mapping one step of the iterative shrinkage thresholding algorithm (ISTA) to a deep network block, representing one iteration of ISTA. To enhance learning ability and incorporate structural diversity, we integrate aggregated residual transformations (ResNeXt) and squeeze-and-excitation (SE) mechanisms into the ISTA block. This block serves as a deep equilibrium layer, connected to a semi-tensor product network (STP-Net) for convenient sampling and providing an initial reconstruction. The resulting model, called MsDC-DEQ-Net, exhibits competitive performance compared to state-of-the-art network-based methods. It significantly reduces storage requirements compared to deep unrolling methods, using only one iteration block instead of multiple iterations. Unlike deep unrolling models, MsDC-DEQ-Net can be iteratively used, gradually improving reconstruction accuracy while considering computation trade-offs. Additionally, the model benefits from multi-scale dilated convolutions, further enhancing performance.",
+    "published": "2024-01-05T16:25:58Z",
+    "categories": [
+      "eess.IV",
+      "cs.AI"
+    ],
+    "primary_category": "eess.IV"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02905v2",
+    "title": "H2G2-Net: A Hierarchical Heterogeneous Graph Generative Network Framework for Discovery of Multi-Modal Physiological Responses",
+    "authors": [
+      "Haidong Gu",
+      "Nathan Gaw",
+      "Yinan Wang",
+      "Chancellor Johnstone",
+      "Christine Beauchene",
+      "Sophia Yuditskaya",
+      "Hrishikesh Rao",
+      "Chun-An Chou"
+    ],
+    "summary": "Discovering human cognitive and emotional states using multi-modal physiological signals draws attention across various research applications. Physiological responses of the human body are influenced by human cognition and commonly used to analyze cognitive states. From a network science perspective, the interactions of these heterogeneous physiological modalities in a graph structure may provide insightful information to support prediction of cognitive states. However, there is no clue to derive exact connectivity between heterogeneous modalities and there exists a hierarchical structure of sub-modalities. Existing graph neural networks are designed to learn on non-hierarchical homogeneous graphs with pre-defined graph structures; they failed to learn from hierarchical, multi-modal physiological data without a pre-defined graph structure. To this end, we propose a hierarchical heterogeneous graph generative network (H2G2-Net) that automatically learns a graph structure without domain knowledge, as well as a powerful representation on the hierarchical heterogeneous graph in an end-to-end fashion. We validate the proposed method on the CogPilot dataset that consists of multi-modal physiological signals. Extensive experiments demonstrate that our proposed method outperforms the state-of-the-art GNNs by 5%-20% in prediction accuracy.",
+    "published": "2024-01-05T17:05:33Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SP"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02920v1",
+    "title": "Analytically-Driven Resource Management for Cloud-Native Microservices",
+    "authors": [
+      "Yanqi Zhang",
+      "Zhuangzhuang Zhou",
+      "Sameh Elnikety",
+      "Christina Delimitrou"
+    ],
+    "summary": "Resource management for cloud-native microservices has attracted a lot of recent attention. Previous work has shown that machine learning (ML)-driven approaches outperform traditional techniques, such as autoscaling, in terms of both SLA maintenance and resource efficiency. However, ML-driven approaches also face challenges including lengthy data collection processes and limited scalability. We present Ursa, a lightweight resource management system for cloud-native microservices that addresses these challenges. Ursa uses an analytical model that decomposes the end-to-end SLA into per-service SLA, and maps per-service SLA to individual resource allocations per microservice tier. To speed up the exploration process and avoid prolonged SLA violations, Ursa explores each microservice individually, and swiftly stops exploration if latency exceeds its SLA.\n  We evaluate Ursa on a set of representative and end-to-end microservice topologies, including a social network, media service and video processing pipeline, each consisting of multiple classes and priorities of requests with different SLAs, and compare it against two representative ML-driven systems, Sinan and Firm. Compared to these ML-driven approaches, Ursa provides significant advantages: It shortens the data collection process by more than 128x, and its control plane is 43x faster than ML-driven approaches. At the same time, Ursa does not sacrifice resource efficiency or SLAs. During online deployment, Ursa reduces the SLA violation rate by 9.0% up to 49.9%, and reduces CPU allocation by up to 86.2% compared to ML-driven approaches.",
+    "published": "2024-01-05T17:55:32Z",
+    "categories": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.DC"
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.00024v3",
+    "title": "Can Large Language Models Understand Molecules?",
+    "authors": [
+      "Shaghayegh Sadeghi",
+      "Alan Bui",
+      "Ali Forooghi",
+      "Jianguo Lu",
+      "Alioune Ngom"
+    ],
+    "summary": "Purpose: Large Language Models (LLMs) like GPT (Generative Pre-trained Transformer) from OpenAI and LLaMA (Large Language Model Meta AI) from Meta AI are increasingly recognized for their potential in the field of cheminformatics, particularly in understanding Simplified Molecular Input Line Entry System (SMILES), a standard method for representing chemical structures. These LLMs also have the ability to decode SMILES strings into vector representations.\n  Method: We investigate the performance of GPT and LLaMA compared to pre-trained models on SMILES in embedding SMILES strings on downstream tasks, focusing on two key applications: molecular property prediction and drug-drug interaction prediction.\n  Results: We find that SMILES embeddings generated using LLaMA outperform those from GPT in both molecular property and DDI prediction tasks. Notably, LLaMA-based SMILES embeddings show results comparable to pre-trained models on SMILES in molecular prediction tasks and outperform the pre-trained models for the DDI prediction tasks.\n  Conclusion: The performance of LLMs in generating SMILES embeddings shows great potential for further investigation of these models for molecular embedding. We hope our study bridges the gap between LLMs and molecular embedding, motivating additional research into the potential of LLMs in the molecular representation field. GitHub: https://github.com/sshaghayeghs/LLaMA-VS-GPT",
+    "published": "2024-01-05T18:31:34Z",
+    "categories": [
+      "q-bio.BM",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "q-bio.BM"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02949v3",
+    "title": "Graph2Tac: Online Representation Learning of Formal Math Concepts",
+    "authors": [
+      "Lasse Blaauwbroek",
+      "Miroslav Olšák",
+      "Jason Rute",
+      "Fidel Ivan Schaposnik Massolo",
+      "Jelle Piepenbrock",
+      "Vasily Pestun"
+    ],
+    "summary": "In proof assistants, the physical proximity between two formal mathematical concepts is a strong predictor of their mutual relevance. Furthermore, lemmas with close proximity regularly exhibit similar proof structures. We show that this locality property can be exploited through online learning techniques to obtain solving agents that far surpass offline learners when asked to prove theorems in an unseen mathematical setting. We extensively benchmark two such online solvers implemented in the Tactician platform for the Coq proof assistant: First, Tactician's online $k$-nearest neighbor solver, which can learn from recent proofs, shows a $1.72\\times$ improvement in theorems proved over an offline equivalent. Second, we introduce a graph neural network, Graph2Tac, with a novel approach to build hierarchical representations for new definitions. Graph2Tac's online definition task realizes a $1.5\\times$ improvement in theorems solved over an offline baseline. The $k$-NN and Graph2Tac solvers rely on orthogonal online data, making them highly complementary. Their combination improves $1.27\\times$ over their individual performances. Both solvers outperform all other general-purpose provers for Coq, including CoqHammer, Proverbot9001, and a transformer baseline by at least $1.48\\times$ and are available for practical use by end-users.",
+    "published": "2024-01-05T18:52:09Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02954v1",
+    "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+    "authors": [
+      "DeepSeek-AI",
+      ":",
+      "Xiao Bi",
+      "Deli Chen",
+      "Guanting Chen",
+      "Shanhuang Chen",
+      "Damai Dai",
+      "Chengqi Deng",
+      "Honghui Ding",
+      "Kai Dong",
+      "Qiushi Du",
+      "Zhe Fu",
+      "Huazuo Gao",
+      "Kaige Gao",
+      "Wenjun Gao",
+      "Ruiqi Ge",
+      "Kang Guan",
+      "Daya Guo",
+      "Jianzhong Guo",
+      "Guangbo Hao",
+      "Zhewen Hao",
+      "Ying He",
+      "Wenjie Hu",
+      "Panpan Huang",
+      "Erhang Li",
+      "Guowei Li",
+      "Jiashi Li",
+      "Yao Li",
+      "Y. K. Li",
+      "Wenfeng Liang",
+      "Fangyun Lin",
+      "A. X. Liu",
+      "Bo Liu",
+      "Wen Liu",
+      "Xiaodong Liu",
+      "Xin Liu",
+      "Yiyuan Liu",
+      "Haoyu Lu",
+      "Shanghao Lu",
+      "Fuli Luo",
+      "Shirong Ma",
+      "Xiaotao Nie",
+      "Tian Pei",
+      "Yishi Piao",
+      "Junjie Qiu",
+      "Hui Qu",
+      "Tongzheng Ren",
+      "Zehui Ren",
+      "Chong Ruan",
+      "Zhangli Sha",
+      "Zhihong Shao",
+      "Junxiao Song",
+      "Xuecheng Su",
+      "Jingxiang Sun",
+      "Yaofeng Sun",
+      "Minghui Tang",
+      "Bingxuan Wang",
+      "Peiyi Wang",
+      "Shiyu Wang",
+      "Yaohui Wang",
+      "Yongji Wang",
+      "Tong Wu",
+      "Y. Wu",
+      "Xin Xie",
+      "Zhenda Xie",
+      "Ziwei Xie",
+      "Yiliang Xiong",
+      "Hanwei Xu",
+      "R. X. Xu",
+      "Yanhong Xu",
+      "Dejian Yang",
+      "Yuxiang You",
+      "Shuiping Yu",
+      "Xingkai Yu",
+      "B. Zhang",
+      "Haowei Zhang",
+      "Lecong Zhang",
+      "Liyue Zhang",
+      "Mingchuan Zhang",
+      "Minghua Zhang",
+      "Wentao Zhang",
+      "Yichao Zhang",
+      "Chenggang Zhao",
+      "Yao Zhao",
+      "Shangyan Zhou",
+      "Shunfeng Zhou",
+      "Qihao Zhu",
+      "Yuheng Zou"
+    ],
+    "summary": "The rapid development of open-source large language models (LLMs) has been truly remarkable. However, the scaling law described in previous literature presents varying conclusions, which casts a dark cloud over scaling LLMs. We delve into the study of scaling laws and present our distinctive findings that facilitate scaling of large scale models in two commonly used open-source configurations, 7B and 67B. Guided by the scaling laws, we introduce DeepSeek LLM, a project dedicated to advancing open-source language models with a long-term perspective. To support the pre-training phase, we have developed a dataset that currently consists of 2 trillion tokens and is continuously expanding. We further conduct supervised fine-tuning (SFT) and Direct Preference Optimization (DPO) on DeepSeek LLM Base models, resulting in the creation of DeepSeek Chat models. Our evaluation results demonstrate that DeepSeek LLM 67B surpasses LLaMA-2 70B on various benchmarks, particularly in the domains of code, mathematics, and reasoning. Furthermore, open-ended evaluations reveal that DeepSeek LLM 67B Chat exhibits superior performance compared to GPT-3.5.",
+    "published": "2024-01-05T18:59:13Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.03023v2",
+    "title": "Loop Feynman integration on a quantum computer",
+    "authors": [
+      "Jorge J. Martínez de Lejarza",
+      "Leandro Cieri",
+      "Michele Grossi",
+      "Sofia Vallecorsa",
+      "Germán Rodrigo"
+    ],
+    "summary": "This work investigates in detail the performance and advantages of a new quantum Monte Carlo integrator, dubbed Quantum Fourier Iterative Amplitude Estimation (QFIAE), to numerically evaluate for the first time loop Feynman integrals in a near-term quantum computer and a quantum simulator. In order to achieve a quadratic speedup, QFIAE introduces a Quantum Neural Network (QNN) that efficiently decomposes the multidimensional integrand into its Fourier series. For a one-loop tadpole Feynman diagram, we have successfully implemented the quantum algorithm on a real quantum computer and obtained a reasonable agreement with the analytical values. One-loop Feynman diagrams with more external legs have been analyzed in a quantum simulator. These results thoroughly illustrate how our quantum algorithm effectively estimates loop Feynman integrals and the method employed could also find applications in other fields such as finance, artificial intelligence, or other physical sciences.",
+    "published": "2024-01-05T19:00:04Z",
+    "categories": [
+      "hep-ph",
+      "quant-ph"
+    ],
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.00025v2",
+    "title": "Accelerating a Triton Fused Kernel for W4A16 Quantized Inference with SplitK work decomposition",
+    "authors": [
+      "Adnan Hoque",
+      "Less Wright",
+      "Chih-Chieh Yang",
+      "Mudhakar Srivatsa",
+      "Raghu Ganti"
+    ],
+    "summary": "We propose an implementation of an efficient fused matrix multiplication kernel for W4A16 quantized inference, where we perform dequantization and GEMM in a fused kernel using a SplitK work decomposition. Our implementation shows improvement for the type of skinny matrix-matrix multiplications found in foundation model inference workloads. In particular, this paper surveys the type of matrix multiplication between a skinny activation matrix and a square weight matrix. Our results show an average of 65% speed improvement on A100, and an average of 124% speed improvement on H100 (with a peak of 295%) for a range of matrix dimensions including those found in a llama-style model, where m < n = k.",
+    "published": "2024-01-05T19:17:55Z",
+    "categories": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "primary_category": "cs.DC"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.03040v1",
+    "title": "AccidentGPT: Large Multi-Modal Foundation Model for Traffic Accident Analysis",
+    "authors": [
+      "Kebin Wu",
+      "Wenbin Li",
+      "Xiaofei Xiao"
+    ],
+    "summary": "Traffic accident analysis is pivotal for enhancing public safety and developing road regulations. Traditional approaches, although widely used, are often constrained by manual analysis processes, subjective decisions, uni-modal outputs, as well as privacy issues related to sensitive data. This paper introduces the idea of AccidentGPT, a foundation model of traffic accident analysis, which incorporates multi-modal input data to automatically reconstruct the accident process video with dynamics details, and furthermore provide multi-task analysis with multi-modal outputs. The design of the AccidentGPT is empowered with a multi-modality prompt with feedback for task-oriented adaptability, a hybrid training schema to leverage labelled and unlabelled data, and a edge-cloud split configuration for data privacy. To fully realize the functionalities of this model, we proposes several research opportunities. This paper serves as the stepping stone to fill the gaps in traditional approaches of traffic accident analysis and attract the research community attention for automatic, objective, and privacy-preserving traffic accident analysis.",
+    "published": "2024-01-05T19:33:21Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "cs.DC"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.03059v1",
+    "title": "Reliability-Optimized User Admission Control for URLLC Traffic: A Neural Contextual Bandit Approach",
+    "authors": [
+      "Omid Semiari",
+      "Hosein Nikopour",
+      "Shilpa Talwar"
+    ],
+    "summary": "Ultra-reliable low-latency communication (URLLC) is the cornerstone for a broad range of emerging services in next-generation wireless networks. URLLC fundamentally relies on the network's ability to proactively determine whether sufficient resources are available to support the URLLC traffic, and thus, prevent so-called cell overloads. Nonetheless, achieving accurate quality-of-service (QoS) predictions for URLLC user equipment (UEs) and preventing cell overloads are very challenging tasks. This is due to dependency of the QoS metrics (latency and reliability) on traffic and channel statistics, users' mobility, and interdependent performance across UEs. In this paper, a new QoS-aware UE admission control approach is developed to proactively estimate QoS for URLLC UEs, prior to associating them with a cell, and accordingly, admit only a subset of UEs that do not lead to a cell overload. To this end, an optimization problem is formulated to find an efficient UE admission control policy, cognizant of UEs' QoS requirements and cell-level load dynamics. To solve this problem, a new machine learning based method is proposed that builds on (deep) neural contextual bandits, a suitable framework for dealing with nonlinear bandit problems. In fact, the UE admission controller is treated as a bandit agent that observes a set of network measurements (context) and makes admission control decisions based on context-dependent QoS (reward) predictions. The simulation results show that the proposed scheme can achieve near-optimal performance and yield substantial gains in terms of cell-level service reliability and efficient resource utilization.",
+    "published": "2024-01-05T20:26:08Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.IT",
+      "cs.NI",
+      "eess.SP"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.03065v1",
+    "title": "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",
+    "authors": [
+      "Alex Gu",
+      "Baptiste Rozière",
+      "Hugh Leather",
+      "Armando Solar-Lezama",
+      "Gabriel Synnaeve",
+      "Sida I. Wang"
+    ],
+    "summary": "We present CRUXEval (Code Reasoning, Understanding, and eXecution Evaluation), a benchmark consisting of 800 Python functions (3-13 lines). Each function comes with an input-output pair, leading to two natural tasks: input prediction and output prediction. First, we propose a generic recipe for generating our execution benchmark which can be used to create future variation of the benchmark. Second, we evaluate twenty code models on our benchmark and discover that many recent high-scoring models on HumanEval do not show the same improvements on our benchmark. Third, we show that simple CoT and fine-tuning schemes can improve performance on our benchmark but remain far from solving it. The best setup, GPT-4 with chain of thought (CoT), achieves a pass@1 of 75% and 81% on input and output prediction, respectively. In contrast, Code Llama 34B achieves a pass@1 of 50% and 46% on input and output prediction, highlighting the gap between open and closed source models. As no model is close to acing CRUXEval, we provide examples of consistent GPT-4 failures on simple programs as a lens into its code reasoning capabilities and areas for improvement.",
+    "published": "2024-01-05T20:53:51Z",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.SE"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.03068v1",
+    "title": "A how-to guide for code-sharing in biology",
+    "authors": [
+      "Richard J. Abdill",
+      "Emma Talarico",
+      "Laura Grieneisen"
+    ],
+    "summary": "Computational biology continues to spread into new fields, becoming more accessible to researchers trained in the wet lab who are eager to take advantage of growing datasets, falling costs, and novel assays that present new opportunities for discovery even outside of the much-discussed developments in artificial intelligence. However, guidance for implementing these techniques is much easier to find than guidance for reporting their use, leaving biologists to guess which details and files are relevant. Here, we provide a set of recommendations for sharing code, with an eye toward guiding those who are comparatively new to applying open science principles to their computational work. Additionally, we review existing literature on the topic, summarize the most common tips, and evaluate the code-sharing policies of the most influential journals in biology, which occasionally encourage code-sharing but seldom require it. Taken together, we provide a user manual for biologists who seek to follow code-sharing best practices but are unsure where to start.",
+    "published": "2024-01-05T21:22:44Z",
+    "categories": [
+      "q-bio.OT"
+    ],
+    "primary_category": "q-bio.OT"
+  }
+]

@@ -1,0 +1,12 @@
+# Copy to terraform.tfvars and adjust — terraform.tfvars itself should be
+# gitignored if you ever put anything environment-specific or sensitive in it.
+
+project_name = "arxivetl"
+environment  = "dev"
+location     = "eastus"
+
+tags = {
+  project   = "arxiv-etl-pipeline"
+  owner     = "your-name"
+  managedBy = "terraform"
+}
